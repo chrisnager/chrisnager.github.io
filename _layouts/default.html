@@ -1,35 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="page  {{ page.page-class }}">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
         <title>{{ page.title }}</title>
+
         <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="/css/syntax.css">
-        <link rel="stylesheet" href="/css/main.css">
+
+		<meta property="og:title" content="ChrisNager.com"/>
+		<meta property="og:image" content="http://chrisnager.com/wp-content/themes/boilerplate/images/logo.png"/>
+		<meta property="og:description" content="Chris Nager's award winning web design portfolio."/>
+		<meta property="fb:admins" content="41803347" />
+
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="@chrisnager">
+		<meta name="twitter:creator" content="@chrisnager">
+		<meta name="twitter:url" content="http://chrisnager.com">
+		<meta name="twitter:title" content="ChrisNager.com">
+		<meta name="twitter:description" content="Chris Nager's award winning web design portfolio.">
+		<meta name="twitter:image" content="http://chrisnager.com/wp-content/themes/boilerplate/images/logo.png">
+
+		<meta name="application-name" content="ChrisNager.com"/>
+		<meta name="msapplication-TileColor" content="#00a5ff"/>
+		<meta name="msapplication-TileImage" content="images/cn-tile.png"/>
+
+        <link rel="stylesheet" href="/css/normalize.css">
+        <!-- <link rel="stylesheet" href="/css/syntax.css"> -->
+        <!-- <link rel="stylesheet" href="/css/main.css"> -->
+        <link rel="stylesheet" href="/css/chrisnager.css">
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900">
+
+<!-- <link rel="logo" type="image/svg" href="/images/logo.svg"/> -->
+
+<link rel='index' title='ChrisNager.com' href='http://chrisnager.com/' />
+<link rel='next' title='Portfolio' href='http://chrisnager.com/portfolio/' />
+
+<link rel='canonical' href='http://chrisnager.com/' />
+<link rel="shortcut icon" href="http://dl.dropbox.com/u/5066613/cn-logo-icon.png" />
+			      <link rel="icon" type="image/png" href="http://dl.dropbox.com/u/5066613/cn-logo-icon.png" /><link rel="apple-touch-icon" href="http://dl.dropbox.com/u/5066613/cn-logo-icon.png" />
     </head>
     <body>
         <div class="site">
-            <div class="header">
-                <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-                <a class="extra" href="/">home</a>
-            </div>
+            <section class="header  group">
+                <div class="inner">
+                    <h1 class="logo"><a href="/">chrisnager<span class="logo__alt">.com</span></a></h1>
+                    <h2 class="tagline">Award winning designer &amp; devleoper living in Brooklyn, NY working as a Front End Engineer, Product Vision at <a href="//salesforce.com">Salesforce</a></h2>
+                    <ul class="nav">
+                        <li class="nav__portfolio"><a href="/portfolio">Portfolio</a></li><!--
+                     --><li class="nav__profile"><a href="/profile">Profile</a></li><!--
+                     --><li class="nav__playground"><a href="/playground">Playground</a></li>
+                    </ul>
+                </div>
+            </section>
+
 
             {{ content }}
 
-            <div class="footer">
-                <div class="contact">
-                    <p>Chris Nager</p>
-                </div>
-                <div class="contact">
-                    <ul>
-                        <li><a href="https://twitter.com/chrisnager" title="Follow me on Twitter">Twitter</a></li>
-                        <li><a href="https://github.com/chrisnager" title="Follow me on GitHub">GitHub</a></li>
-                        <li><a href="https://dribbble.com/chrisnager" title="Follow me on Dribbble">Dribbble</a></li>
-                        <li><a href="https://linkedin.com/in/chrisnager" title="Connect with me on LinkedIn">LinkedIn</a></li>
+
+            <section class="bottom  group">
+                <div class="inner">
+                    <ul class="social-links">
+                        <li><a href="//twitter.com/chrisnager"><i alt="f202" class="genericon genericon-twitter"></i></a></li><!--
+                     --><li><a href="//codepen.com/chrisnager"><i alt="f216" class="genericon genericon-codepen"></i></a></li><!--
+                     --><li><a href="//github.com/chrisnager"><i alt="f200" class="genericon genericon-github"></i></a></li><!--
+                     --><li><a href="//linkedin.com/in/chrisnager"><i alt="f207" class="genericon genericon-linkedin"></i></a></li><!--
+                     --><li><a href="//dribbble.com/chrisnager"><i alt="f201" class="genericon genericon-dribbble"></i></a></li>
                     </ul>
+                    <p>I'm not currently taking on any new work, but feel free to <a href="mailto:chris@chrisnager.com">get in touch</a>.</p>
                 </div>
-            </div>
+            </section>
+
+            <section class="footer group">
+                <div class="inner">
+                  <p><small>&copy; 2014 Chris Nager &middot; Built in vim with <a href="//jekyllrb.com/">Jekyll</a>. Hosted on <a href="//github.com/chrisnager/chrisnager.com">GitHub</a>.</small></p>
+                </div>
+            </section>
         </div>
+
+        <script async src="//codepen.io/assets/embed/ei.js"></script>
     </body>
 </html>
+
+<!--
+Writings (Playground [with Home {intro}])
+CV
+Profile (Profile + Contact)
+Work (Portfolio)
+-->
+
+<!--
+/**
+ * TODO:
+ *
+ * Single direction margins
+ * BEM naming
+ * Google Analytics
+ * Fix genericons to spell out the words
+ * Find a good baseline for copy
+ * 
+ */
+-->
+
