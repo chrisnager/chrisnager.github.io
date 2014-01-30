@@ -10,6 +10,12 @@ html {
     background-color: #F6F8F7;
 }
 
+::selection {
+    color: white;
+    text-shadow: none;
+    background-color: #ff3600;
+}
+
 h1,h2,h3,h4,h5,h6,hgroup,
 ul,ol,dd,
 p,figure,
@@ -136,19 +142,21 @@ a {
 }
 
 .footer > .inner {
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding: 1.25rem 1rem;
     text-align: center;
     color: white;
     background-color: red;
+}
+
+.footer p {
+    margin-bottom: 0;
 }
 
 .footer a {
     color: white;
 }
 
-.nav,
-.social-links {
+ul {
     margin-top: 0;
     padding-left: 0;
     list-style: none;
