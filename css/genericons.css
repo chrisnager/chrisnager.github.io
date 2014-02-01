@@ -1,4 +1,6 @@
- Helper CSS
+/**
+
+    Genericons Helper CSS
 
 */
 
@@ -27,18 +29,18 @@
  */
 
 .genericon {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        font-size: 16px;
-        line-height: 1;
-        font-family: 'Genericons';
-        text-decoration: inherit;
-        font-weight: normal;
-        font-style: normal;
-        vertical-align: top;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 16px;
+    line-height: 1;
+    font-family: 'Genericons';
+    text-decoration: inherit;
+    font-weight: normal;
+    font-style: normal;
+    vertical-align: top;
 }
 
 /**
@@ -46,9 +48,9 @@
  */
 
 .genericon {
-        *overflow: auto;
-        *zoom: 1;
-        *display: inline;
+    *overflow: auto;
+    *zoom: 1;
+    *display: inline;
 }
 
 /**
@@ -188,4 +190,3 @@
 .genericon-rightarrow:before {      content: '\f501'; }
 .genericon-downarrow:before {       content: '\f502'; }
 .genericon-leftarrow:before {       content: '\f503'; }
-

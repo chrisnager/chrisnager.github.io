@@ -6,16 +6,14 @@ permalink: /playground/
 ---
 
 <section class="group">
-<div class="inner">
-<ul class="posts">
-{% for post in site.posts %}
-<li>
-    <a href="{{ post.url }}">
-        <p>{{ post.date | date_to_string }}</p>
-        <h1>{{ post.title }}<h1>
-    </a>
-</li>
-{% endfor %}
-</ul>
-</div>
+    <ul class="posts">
+        {% for post in site.posts %}
+            <li>
+                <a href="{{ post.url }}">
+                    <p>{{ post.date | date_to_string }}</p>
+                    <h1>{{ post.title }}<h1>
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
 </section>
