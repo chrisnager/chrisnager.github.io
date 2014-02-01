@@ -49,3 +49,14 @@ permalink: /portfolio/
         </a>
     </div>
 </section>
+
+<section class="group  project">
+    <div class="inner">
+        <a href="//coding.smashingmagazine.com/2010/07/12/css3-design-contest-results/">
+            <h1>Totally Fresh</h1>
+            <p>Experimental CSS3 design featured on Smashing Magazine</p>
+        </a>
+    </div>
+</section>
+
+
