@@ -280,19 +280,19 @@ img {
     text-align: center;
 }
 
-.footer p {
-    margin-bottom: 0;
-}
-
-.footer a {
-    color: white;
-}
-
 .copyright {
     margin-bottom: 0;
     padding: 1.25rem 1rem;
     color: white;
     background-color: red;
+}
+
+.copyright p {
+    margin-bottom: 0;
+}
+
+.copyright a {
+    color: white;
 }
 
 
