@@ -14,49 +14,33 @@ categories:
 
 Wouldn't it be fun to be able to target our designs based on what season, day, or hour it is using CSS media queries?
 
+<p class="alert"><strong>Experimental code ahead.</strong> The following code doesn't exist…yet.</p>
 
-
-**Experimental code ahead.** The following code doesn't exist…yet.
-
-
-
-`
-
-    
-    /* Style for summer */
-    @media (time: from(2013-06-21) to(2013-09-21)) {
-        html {
-            background: radial-gradient(yellow, white);
-        }
+{% highlight css %}
+/* Style for summer */
+@media (time: from(2013-06-21) to(2013-09-21)) {
+    html {
+        background: radial-gradient(yellow, white);
     }
-
-
-`
+}
+{% endhighlight %}
 
 <!-- more -->
 
-`
-
-    
-    /* Style for a birthday */
-    @media (time: 2013-09-12) {
-        html {
-            background: url(confetti.gif);
-        }
+{% highlight css %}
+/* Style for a birthday */
+@media (time: 2013-09-12) {
+    html {
+        background: url(confetti.gif);
     }
+}
+{% endhighlight %}
 
-
-`
-
-`
-
-    
-    /* Style for the evening */
-    @media (time: from(17:00:00) to(21:00:00)) {
-        html {
-            background: darkblue;
-        }
+{% highlight css %}
+/* Style for the evening */
+@media (time: from(17:00:00) to(21:00:00)) {
+    html {
+        background: darkblue;
     }
-
-
-`
+}
+{% endhighlight %}

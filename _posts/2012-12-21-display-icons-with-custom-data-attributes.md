@@ -14,34 +14,24 @@ tags:
 - icons
 ---
 
-<code></code>
-
-
-
+<pre class="codepen" data-height="220" data-type="result" data-href="blips" data-user="ChrisNager" data-safe="true"><code></code></pre>
+<script async src="http://codepen.io/assets/embed/ei.js"></script>
 
 Here is a way to set matching icons to your labels all without leaving your HTML.
 
 Just create a new `data-icon` attribute on your tag that contains your label and set it equal to the icon you would like to use.
 
-
-    
-    
-    <code><li data-icon=★>Favorites</li></code>
-    
-
-
+{% highlight html %}
+<li data-icon=★>Favorites</li>
+{% endhighlight %}
 
 And then set your CSS to display the `data-icon` attribute `before` the label.
 
-
-    
-    
-    <code>li:before {
-        content: attr( data-icon );
-    }</code>
-    
-
-
+{% highlight css %}
+li:before {
+    content: attr( data-icon );
+}
+{% endhighlight %}
 
 On a side note: `attr()` works in IE8+.
 
