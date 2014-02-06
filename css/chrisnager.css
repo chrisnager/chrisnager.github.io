@@ -30,7 +30,7 @@
 }
 
 html {
-    font: 1em/1.7 "Open Sans", "proxima-nova-1", "proxima-nova-2", "Helvetica Neue", sans-serif;
+    font: 75%/1.7 "Open Sans", "proxima-nova-1", "proxima-nova-2", "Helvetica Neue", sans-serif;
     color: #222;
     background-color: #f6f8f7;
 }
@@ -377,4 +377,26 @@ img {
     border-color: #0cf;
     color: white;
     background-color: #0cf;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 27.5rem) {
+    html {
+        font-size: 90%;
+    }
+}
+
+@media (min-width: 35rem) {
+    html {
+        font-size: 100%;
+    }
 }
