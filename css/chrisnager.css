@@ -72,6 +72,11 @@ img {
     max-width: 100%;
 }
 
+iframe {
+    margin-bottom: 1rem;
+    vertical-align: top;
+}
+
 
 
 
@@ -220,6 +225,9 @@ img {
 .post__title,
 .project__title {
     margin-top: 0;
+}
+
+.project__title {
     margin-bottom: 0;
 }
 
@@ -356,7 +364,7 @@ img {
 }
 
 .social-links > li {
-    width: 20%;
+    width: 16.66667%;
 }
 
 .social-links > li > a > i {
