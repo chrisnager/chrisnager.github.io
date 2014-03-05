@@ -7,7 +7,7 @@ permalink: /profile/
 
 # Hi, I'm Chris.
 
-I create usable, future-friendly sites and apps with HTML5, CSS3, JavaScript, jQuery, Haml, Sass, SCSS, Less, PHP, Gulp, Jekyll, WordPress, Vim, and Git.
+I create usable, responsive, future-friendly sites and apps with HTML5, CSS3, JavaScript, jQuery, Haml, Sass, SCSS, Less, BEM, OOCSS, PHP, Gulp, Jekyll, WordPress, Vim, and Git.
 
 <a href="//instagram.com/chrisnager"><img class="profile-image" src="http://distilleryimage11.ak.instagram.com/2a707552652611e3b4660e7130835a1f_8.jpg" alt="Chris Nager in Brooklyn, NY during a snow storm" title="Chris Nager in Brooklyn, NY during a snow storm"></a>
 
@@ -39,13 +39,23 @@ Designed and developed websites from scratch with Adobe Photoshop, HTML and CSS.
 ### Interactive Design Intern
 Designed, sliced and developed website templates in Adobe Fireworks, Adobe Photoshop, HTML and CSS. Worked in the Expression Engine content management system. Designed sites for a number of Blue Fish Design Studio's clients.
 
+
+
 # Speaking
+
+## Salesforce Internal UX and Engineering Presentation
+Front End Standards
 
 ## Scotch Time Tech & Design Podcast
 Working with Devs
 
 ## BarCamp
 CSS3 Playground
+
+## Luckie Internal Design Presentation
+CSS3 Capabilities
+
+
 
 # Education
 
