@@ -7,7 +7,7 @@ permalink: /profile/
 
 # Hi, I'm Chris.
 
-I create usable, responsive, future-friendly sites and apps with HTML5, CSS3, JavaScript, jQuery, Haml, Sass, SCSS, Less, BEM, OOCSS, PHP, Gulp, Jekyll, WordPress, Vim, and Git.
+I create usable, responsive, future-friendly sites and apps with HTML5, CSS3, JavaScript, jQuery, Haml, Sass, BEM, OOCSS, RWD, PHP, Gulp, Jekyll, WordPress, Vim, and Git.
 
 <a href="//instagram.com/chrisnager"><img class="profile-image" src="http://distilleryimage11.ak.instagram.com/2a707552652611e3b4660e7130835a1f_8.jpg" alt="Chris Nager in Brooklyn, NY during a snow storm" title="Chris Nager in Brooklyn, NY during a snow storm"></a>
 
