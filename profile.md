@@ -20,6 +20,10 @@ An ambitious 27 year old enthusiastic about the future of the web, I currently w
 # Experience
 
 ## Salesforce.com
+### Front End Engineer, Member Technical Staff
+Build a scalable and maintainable front end that spans across our range of products. Document proper ways to implement our front end standards. Continuously update the front end bootstrap style guide with new design and code examples. Improve front end performance throughout our products.
+
+## Salesforce.com
 ### Front End Engineer, Product Vision & Prototypes
 Build prototypes for product demos shown at Dreamforce, Social.com launch, Connections, and other large salesforce.com convetions. Build the front end for our Publish, Engage, and Social.com products. Implemented a company wide front end bootstrap style guide with design and code examples used by the entire Marketing Cloud.
 
@@ -42,6 +46,9 @@ Designed, sliced and developed website templates in Adobe Fireworks, Adobe Photo
 
 
 # Speaking
+
+## [TechCrunch Disrupt Hackathon Presentation](//ustre.am/_3bGTL:2613)
+Jaunt - Let your friends be your city guides.
 
 ## Salesforce Internal UX and Engineering Presentation
 Front End Standards
