@@ -65,6 +65,12 @@ ul {
     list-style: none;
 }
 
+pre {
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    padding: 1rem;
+}
+
 a {
     color: #0cf;
 }
