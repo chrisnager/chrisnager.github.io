@@ -32,9 +32,7 @@ My (rather crude) proposal is for a `texture` property in CSS:
 }
 {% endhighlight %}
 
-<!-- more -->
-
-Of course, we would need to include our browser specific versions: ;)
+<p>Of course, we would need to include our browser specific versions: <img src="http://chrisnager.com/v2/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley"></p>
 
 {% highlight css %}
 .surface {
@@ -47,9 +45,9 @@ Of course, we would need to include our browser specific versions: ;)
 }
 {% endhighlight %}
 
-# Properties
+<h1>Properties</h1>
 
-Possible `texture` properties (most ranging from 0 to 1, similar to `opacity`):
+<p>Possible `texture` properties (most ranging from 0 to 1, similar to `opacity`):</p>
 
 {% highlight css %}
 .surface {
@@ -63,7 +61,7 @@ Possible `texture` properties (most ranging from 0 to 1, similar to `opacity`):
 }
 {% endhighlight %}
 
-In shorthand, you'd only include the properties that are necessary (similar to `transform` values):
+<p>In shorthand, you'd only include the properties that are necessary (similar to `transform` values):</p>
 
 {% highlight css %}
 .surface {
@@ -71,7 +69,7 @@ In shorthand, you'd only include the properties that are necessary (similar to `
 }
 {% endhighlight %}
 
-And store your custom `texture` for reuse (similar to @keyframes):
+<p>And store your custom `texture` for reuse (similar to @keyframes):</p>
 
 {% highlight css %}
 @texture grippy {
@@ -83,28 +81,27 @@ And store your custom `texture` for reuse (similar to @keyframes):
 }
 {% endhighlight %}
 
-# Pre-defined values
+<h1>Pre-defined values</h1>
 
-The `texture` values would have standard, pre-defined value names as strings the same way we already have color values like `cadetblue` and transition values like `ease-in-out`.
+<p>The `texture` values would have standard, pre-defined value names as strings the same way we already have color values like `cadetblue` and transition values like `ease-in-out`.</p>
 
 {% highlight css %}
 texture: smooth | course | grainy | sharp | raised | bumpy | sticky | fabric | glass | metallic | rubbery | depressed | detect* | inherit;
 {% endhighlight %}
 
-`detect` would choose the best texture based on the look of the element.
+<p>`detect` would choose the best texture based on the look of the element.</p>
 
-Browsers may handle these defaults differently, so I assume we could end up with vendor-prefixed values like `-webkit-smooth` as well.
+<p>Browsers may handle these defaults differently, so I assume we could end up with vendor-prefixed values like `-webkit-smooth` as well.</p>
 
-* * *
+<hr>
 
-The ability to build out the 3D surfaces of your textures would be possible through the use of technologies like `WebGL`*, `svg3d`, and possibly `matrix3d` (similar to how the CSS `transform` property works).
+<p>The ability to build out the 3D surfaces of your textures would be possible through the use of technologies like `WebGL`*, `svg3d`, and possibly `matrix3d` (similar to how the CSS `transform` property works).</p>
 
-*Texture could be implemented with WebGL something like [this](//www.webdev20.pl/skins/default/js/demos/3d_grapher/webgl_ploter.html).
-_[Credit goes to [Małgorzata Jatczyk](//plus.google.com/118328547579245186440/posts) for this awesome experiment]._
+<p>*Texture could be implemented with WebGL something like [this](//www.webdev20.pl/skins/default/js/demos/3d_grapher/webgl_ploter.html). <i>[Credit goes to [Małgorzata Jatczyk](//plus.google.com/118328547579245186440/posts) for this awesome experiment].</i></p>
 
-# Enhance
+<h1>Enhance</h1>
 
-These styles would work perfectly when designing with progressive enhancement in mind because browsers that couldn't read the `texture` property, would simply ignore it (just like `rgba` colors or `opacity`). The `texture` property could be feature-detected in JavaScript with something like [Modernizr](//modernizr.com/) to check if the device is able to apply textures. Apps that depend on touchable textures may need to offer other ways of handling functionality on non-texture-enabled devices.
+<p>These styles would work perfectly when designing with progressive enhancement in mind because browsers that couldn't read the `texture` property, would simply ignore it (just like `rgba` colors or `opacity`). The `texture` property could be feature-detected in JavaScript with something like [Modernizr](//modernizr.com/) to check if the device is able to apply textures. Apps that depend on touchable textures may need to offer other ways of handling functionality on non-texture-enabled devices.</p>
 
 {% highlight js %}
 if (!Modernizr.textures) {
@@ -120,13 +117,13 @@ if (!Modernizr.textures) {
 
 # Putting `texture` to use
 
-These textures may start off being implemented in a rather dull way at first or considered more novelty than practical, but over time devices would most assuredly be able to render complex 3D textures. Here are some ways developers could use textures.
+<p>These textures may start off being implemented in a rather dull way at first or considered more novelty than practical, but over time devices would most assuredly be able to render complex 3D textures. Here are some ways developers could use textures.</p>
 
-## Accessibility
+<h2>Accessibility</h2>
 
-Touchable textures would open up a whole new level of accessibility. Everyday smartphones and tablets could become much more powerful assistive devices.
+<p>Touchable textures would open up a whole new level of accessibility. Everyday smartphones and tablets could become much more powerful assistive devices.</p>
 
-We could bring Braille to mobile devices:
+<p>We could bring Braille to mobile devices:</p>
 
 {% highlight css %}
 .assistive-touch-device {
@@ -138,13 +135,13 @@ We could bring Braille to mobile devices:
 }
 {% endhighlight %}
 
-*`raised` would represent a two dimensional texture that is raised slightly off the page like an embossed business card.
+<p>*`raised` would represent a two dimensional texture that is raised slightly off the page like an embossed business card.</p>
 
 
-* * *
+<hr>
 
 
-Typing on your on-screen tablet keyboard:
+<p>Typing on your on-screen tablet keyboard:</p>
 
 <style>
 .home-row {
@@ -199,13 +196,13 @@ Typing on your on-screen tablet keyboard:
 }
 {% endhighlight %}
 
-## Gaming
+<h2>Gaming</h2>
 
-Touchable textures in games would be pretty crazy.
+<p>Touchable textures in games would be pretty crazy.</p>
 
-Think about a game where the player rubs a metallic, somewhat adhesive surface until it reveals a smooth plastic texture that unveils a graphic or number, similar to how someone would scratch a lottery ticket to see if they'd won.
+<p>Think about a game where the player rubs a metallic, somewhat adhesive surface until it reveals a smooth plastic texture that unveils a graphic or number, similar to how someone would scratch a lottery ticket to see if they'd won.</p>
 
-Or how riding on a sidewalk in a skateboarding game might be written:
+<p>Or how riding on a sidewalk in a skateboarding game might be written:</p>
 
 {% highlight css %}
 @texture concrete {
@@ -226,9 +223,9 @@ Or how riding on a sidewalk in a skateboarding game might be written:
 
 {% endhighlight %}
 
-## Usability
+<h1>Usability</h1>
 
-You could engage on a deeper emotional level with your users through the textures of your buttons:
+<p>You could engage on a deeper emotional level with your users through the textures of your buttons:</p>
 
 {% highlight css %}
 .btn-success {
@@ -239,12 +236,12 @@ You could engage on a deeper emotional level with your users through the texture
 }
 {% endhighlight %}
 
-# Onward!
+<h1>Onward!</h1>
 
-My examples are simple implementations of my proposed `texture` property. My hope is by this point you've thought of many new ways CSS textures could be used and maybe better ways it could be implemented.
+<p>My examples are simple implementations of my proposed `texture` property. My hope is by this point you've thought of many new ways CSS textures could be used and maybe better ways it could be implemented.</p>
 
-The advancement of the web lies in our hands, but more importantly in our imagination.
+<p><strong>The advancement of the web lies in our hands, but more importantly in our imagination.</strong></p>
 
-* * *
+<hr>
 
-EDIT: [Looks like touchable texture technology is on its way!](//www.youtube.com/watch?v=g7fmAxOVOmk&noredirect=1)
+<p>EDIT: <a href="//www.youtube.com/watch?v=g7fmAxOVOmk&noredirect=1">Looks like touchable texture technology is on its way!</a></p>
