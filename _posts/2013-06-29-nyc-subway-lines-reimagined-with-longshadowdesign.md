@@ -4,7 +4,7 @@ comments: false
 date: 2013-06-29 01:34:15+00:00
 layout: post
 slug: nyc-subway-lines-reimagined-with-longshadowdesign
-title: 'NYC Subway Lines reimagined with #longshadowdesign'
+title: 'NYC Subway Lines reimagined with long shadow design'
 wordpress_id: 610
 ---
 
