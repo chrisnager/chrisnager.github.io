@@ -5,4 +5,4 @@ permalink: /:title
 analytics:
     provider: google
     google:
-        tracking_id: 'UA-123-12'
+        tracking_id: 'UA-3632655-1'
