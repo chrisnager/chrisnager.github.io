@@ -339,11 +339,16 @@ iframe {
 .social-links > li > a {
     border-width: 1px 1px 1px 0;
     border-style: solid;
-    padding: 0.35rem;
+    padding: 0.625rem 0.35rem;
     display: block;
     font-size: 0.875rem;
+    line-height: 1;
     text-decoration: none;
     color: #0cf;
+}
+
+.social-links > li > a {
+    padding: 0.25rem;
 }
 
 .nav > li:first-child > a,
@@ -356,13 +361,7 @@ iframe {
 }
 
 .social-links > li {
-    width: 16.66667%;
-}
-
-.social-links > li > a > i {
-    width: 20px;
-    height: 20px;
-    font-size: 1.25rem;
+    width: 20%;
 }
 
 .page--projects .nav__projects > a,
@@ -377,6 +376,22 @@ iframe {
     border-color: #0cf;
     color: white;
     background-color: #0cf;
+}
+
+.social-links > li > a > .icon {
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.social-links > li > a > .icon path {
+    fill: #0cf;
+}
+
+.social-links > li > a:hover > .icon path,
+.social-links > li > a:focus > .icon path {
+    fill: #fff;
 }
 
 
