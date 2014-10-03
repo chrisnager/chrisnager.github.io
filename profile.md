@@ -11,7 +11,7 @@ I create usable, responsive, future-friendly sites and apps with HTML5, CSS3, Ja
 
 <a href="//instagram.com/chrisnager"><img class="profile-image" src="http://distilleryimage11.ak.instagram.com/2a707552652611e3b4660e7130835a1f_8.jpg" alt="Chris Nager in Brooklyn, NY during a snow storm" title="Chris Nager in Brooklyn, NY during a snow storm"></a>
 
-An ambitious, self-driven 27 year old enthusiastic about the future of the web, I currently work in New York as a Front End Engineer at Salesforce.com. Using the latest web technologies and languages, I strive to build beautifully designed and masterfully coded websites and apps. I continually learn from and contribute to the web community and constantly find myself taking on self-initiated [side projects](/projects). I merge the gap between designer and developer by taking my designs from pen and paper to usable, performance-first online experiences.
+I'm ambitious, self-driven, and enthusiastic about the future of the web. I currently work in New York City as a Front End Engineer at Salesforce.com. Using the latest web technologies and languages, I strive to build beautifully designed and masterfully coded websites and apps. I continually learn from and contribute to the web community and constantly find myself taking on self-initiated [side projects](/projects). I merge the gap between designer and developer by taking my designs from pen and paper to usable, performance-first online experiences.
 
 [Say hello](mailto:chris@chrisnager.com).
 
