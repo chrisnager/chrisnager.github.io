@@ -103,10 +103,14 @@
                 </ul>
                 <p>I'm currently working as a Front End Engineer at <a href="//salesforce.com">Salesforce</a> and am not taking on any new work, but feel free to <a href="mailto:chris@chrisnager.com">get in touch</a>.</p>
                 <div class="copyright">
-                    <p><small>&copy; 2014 Chris Nager &middot; Built in Vim with <a href="//jekyllrb.com/">Jekyll</a>. Hosted on <a href="//github.com/chrisnager/chrisnager.com">GitHub</a>.</small></p>
+                    <p><small>&copy; <span class="copyright__current-year"></span> Chris Nager &middot; Built in Vim with <a href="//jekyllrb.com/">Jekyll</a>. Hosted on <a href="//github.com/chrisnager/chrisnager.com">GitHub</a>.</small></p>
                 </div>
             </footer>
         </div>
+
+        <script>
+            document.getElementsByClassName('copyright__current-year')[0].innerHTML = new Date().getFullYear();
+        </script>
 
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
