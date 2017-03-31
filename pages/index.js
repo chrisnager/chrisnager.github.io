@@ -45,342 +45,331 @@ const data = {
     name: 'Profile',
     entries: [],
   },
-  posts: {
-    name: 'Posts',
+  career: {
+    name: 'Career',
     entries: [
       {
-        id: 0,
-        name: 'Center and crop images with a single line of CSS',
-        description: '19 Jan 2015',
-        url: '',
-        tags: ['css'],
+        name: 'IEX',
+        description: '2015 - present',
+        url: 'https://iextrading.com/',
+        tags: ['job'],
       },
       {
-        id: 1,
-        name: 'Bespoke SVG Reference',
-        description: '23 May 2014',
-        url: '',
-        tags: ['css'],
+        name: 'Salesforce',
+        description: '2011 - 2015',
+        url: 'https://www.salesforce.com/',
+        tags: ['job'],
       },
       {
-        id: 2,
-        name: 'Analog-style LED clock concept',
-        description: '25 Mar 2014',
-        url: '',
-        tags: ['css'],
-      },
-      {
-        id: 3,
-        name: 'Simple vertical centering with CSS',
-        description: '10 Jan 2014',
-        url: '',
-        tags: ['css'],
-      },
-      {
-        id: 4,
-        name: 'NYC Subway Lines reimagined with long shadow design',
-        description: '29 Jun 2013',
-        url: '',
-        tags: ['css'],
-      },
-      {
-        id: 5,
-        name: 'Time-based media queries',
-        description: '25 Mar 2013',
-        url: '',
-        tags: ['css'],
-      },
-      {
-        id: 6,
-        name: 'Hue bump with Sass @for control directive',
-        description: '17 Jan 2013',
-        url: '',
-        tags: ['css'],
-      },
-      {
-        id: 7,
-        name: 'Display icons with custom data-attributes',
-        description: '21 Dec 2012',
-        url: '',
-        tags: ['css'],
-      },
-      {
-        id: 8,
-        name: 'Circles',
-        description: '19 Dec 2012',
-        url: '',
-        tags: ['css'],
-      },
-      {
-        id: 9,
-        name: 'Video and audio in CSS',
-        description: '04 Dec 2012',
-        url: '',
-        tags: ['css'],
-      },
-      {
-        id: 10,
-        name: 'Natural curves',
-        description: '08 Nov 2012',
-        url: '',
-        tags: ['css'],
-      },
-      {
-        id: 11,
-        name: 'My initials',
-        description: '23 Oct 2012',
-        url: '',
-        tags: ['css'],
-      },
-      {
-        id: 12,
-        name: 'Touchable textures with CSS - can you feel me?',
-        description: '18 Oct 2012',
-        url: '',
-        tags: ['css'],
-      },
-      {
-        id: 13,
-        name: 'Further simplified hexcodes',
-        description: '18 Sep 2012',
-        url: '',
-        tags: ['css'],
-      },
-      {
-        id: 14,
-        name: 'Box sizing for pseudo elements',
-        description: '09 Sep 2012',
-        url: '',
-        tags: ['css'],
-      },
-      {
-        id: 15,
-        name: 'An Event Apart and a Designer’s View of the Web',
-        description: '23 Sep 2011',
-        url: '',
-        tags: ['css'],
-      },
-      {
-        id: 16,
-        name: 'CSS3 ::selection background color trick',
-        description: '09 Sep 2011',
-        url: '',
-        tags: ['css'],
-      },
-      {
-        id: 17,
-        name: 'Chris Nager 2012 (Responsive Design)',
-        description: '18 Aug 2011',
-        url: '',
-        tags: ['css'],
-      },
-      {
-        id: 18,
-        name: 'ChrisNager.com v2 is live',
-        description: '12 Jun 2011',
-        url: '',
-        tags: ['css'],
+        name: 'Luckie',
+        description: '2010 -2011',
+        url: 'http://www.luckie.com/',
+        tags: ['job'],
       },
     ],
   },
   projects: {
-    name: 'Projects',
+    name: 'Works',
     entries: [
       {
-        id: 0,
+        name: '> Signum majoritatis',
+        description: 'A side-scrolling game built in a single string',
+        url: 'http://bit.ly/smajor',
+        tags: ['javascript', 'game'],
+      },
+      {
         name: 'hexcodes',
         description: 'All 4,096 shorthand hexcodes',
         url: 'https://chrisnager.github.io/hexcodes/',
         tags: ['color'],
       },
       {
-        id: 1,
         name: 'short-color-names',
         description: 'The 45 CSS color names that are as short as or shorter than their corresponding hexcodes',
         url: 'https://chrisnager.github.io/short-color-names/',
         tags: ['color'],
       },
       {
-        id: 2,
         name: 'simple-palette',
         description: 'A simple color palette',
         url: 'http://chrisnager.github.io/simple-palette/',
         tags: ['color'],
       },
       {
-        id: 3,
         name: 'ungrid',
         description: 'The simplest responsive css grid',
         url: 'http://chrisnager.github.io/ungrid/',
         tags: ['layout', 'grid'],
       },
       {
-        id: 4,
         name: 'simple-debug.css',
         description: 'Debug your layouts with one line of CSS',
         url: 'https://chrisnager.github.io/simple-debug.css/',
         tags: ['layout'],
       },
       {
-        id: 5,
         name: 'Emoonji',
         description: 'A chatbot',
         url: 'https://bit.do/emoonji',
-        tags: ['chatbot', '🌝'],
+        tags: ['chatbot', 'javascript', 'firebase'],
       },
       {
-        id: 6,
         name: 'Give \'n\' Go',
         description: 'A curated gallery of Dribbble shots reworked as interactive CodePen pens',
-        url: '',
-        tags: ['css'],
+        url: 'http://give-n-go.co/',
+        tags: ['css', 'design', 'community', 'app', 'site'],
       },
       {
-        id: 7,
         name: 'Cheer me up',
         description: 'Fun, custom pages in seconds',
-        url: '',
-        tags: ['css'],
+        url: 'http://cheermeup.io/',
+        tags: ['css', 'javascript', 'gif'],
       },
       {
-        id: 8,
         name: 'ungrid',
         description: 'the simplest responsive css grid',
-        url: '',
-        tags: ['css'],
+        url: 'http://chrisnager.github.io/ungrid/',
+        tags: ['css', 'grid'],
       },
       {
-        id: 9,
         name: 'Until',
         description: 'Are we there yet?',
-        url: '',
-        tags: ['css'],
+        url: 'http://chrisnager.github.io/until/',
+        tags: ['css', 'react', 'javascript'],
       },
       {
-        id: 10,
         name: 'UN Disaster Response',
         description: 'Currently working with the Harvard Humanitarian Initiative on a disaster and humanitarian response survey building app to be used by the United Nations',
-        url: '',
+        url: 'https://vimeo.com/71911497',
         tags: ['css'],
       },
       {
-        id: 11,
         name: 'Jaunt',
         description: 'Let your friends be your city guides. (TechCrunch Disrupt Hackathon app entry)',
-        url: '',
-        tags: ['css'],
+        url: 'https://disruptnyhackathon.devpost.com/submissions/23514-jaunt',
+        tags: ['css', 'hackathon'],
       },
       {
-        id: 12,
         name: 'Cursors',
         description: 'All available cursors',
-        url: '',
-        tags: ['css'],
+        url: 'http://chrisnager.github.io/cursors/',
+        tags: ['html', 'css'],
       },
       {
-        id: 13,
         name: 'simple-debug.css',
         description: 'Debug your layouts with one line of CSS',
-        url: '',
-        tags: ['css'],
+        url: 'http://chrisnager.github.io/simple-debug.css/',
+        tags: ['css', 'layout', 'debugger'],
       },
       {
-        id: 14,
-        name: 'palette',
+        name: 'simple palette',
         description: 'A simple color palette',
-        url: '',
-        tags: ['css'],
+        url: 'http://chrisnager.github.io/simple-palette/',
+        tags: ['color'],
       },
       {
-        id: 15,
         name: '✂ short color names',
         description: 'The 44 CSS color names that are as short as or shorter than their corresponding hexcodes.',
-        url: '',
-        tags: ['css'],
+        url: 'http://chrisnager.github.io/short-color-names/',
+        tags: ['color', 'css'],
       },
       {
-        id: 16,
         name: 'hexcodes',
         description: 'All possible three digit hexcodes',
-        url: '',
-        tags: ['css'],
+        url: 'http://chrisnager.github.io/hexcodes/',
+        tags: ['color'],
       },
       {
-        id: 17,
         name: 'tiny google fonts',
         description: 'Strip down your google fonts significantly to only include the characters you\'re actually using',
-        url: '',
-        tags: ['css'],
+        url: 'http://chrisnager.github.io/tiny-google-fonts/',
+        tags: ['fonts', 'javascript'],
       },
       {
-        id: 18,
         name: 'Birthday hex',
         description: 'Find your birthday hexcode',
-        url: '',
-        tags: ['css'],
+        url: 'http://chrisnager.github.io/birthday-hex/',
+        tags: ['color', 'css', 'javascript'],
       },
       {
-        id: 19,
         name: 'SVG Please',
         description: 'Simple script to replace your bitmap icons with inline SVGs with bitmap fallback built in',
-        url: '',
-        tags: ['css'],
+        url: 'http://chrisnager.github.io/svg-please/',
+        tags: ['svg', 'javascript'],
       },
       {
-        id: 20,
         name: '#Fav5',
         description: 'What are your five most important items?',
-        url: '',
+        url: 'http://fav5.co/',
         tags: ['css'],
       },
       {
-        id: 21,
         name: 'Twadlib!',
         description: 'Ad-lib your tweets',
-        url: '',
-        tags: ['css'],
+        url: 'http://chrisnager.com/twadlib/',
+        tags: ['javascript', 'css', 'competition', 'twitter', '10k'],
       },
       {
-        id: 22,
         name: 'Bliss',
         description: 'Beautifully lean, ideal style sheets',
-        url: '',
+        url: 'http://chrisnager.github.io/bliss/',
         tags: ['css'],
       },
       {
-        id: 23,
         name: 'Crafted CSS',
         description: 'A personal compilation of CSS practices I follow',
-        url: '',
-        tags: ['css'],
+        url: 'https://github.com/chrisnager/crafted-css',
+        tags: ['css', 'code guidelines'],
       },
       {
-        id: 24,
         name: 'Social Logos',
         description: 'Download official social logos',
-        url: '',
+        url: 'http://chrisnager.com/social-logos/',
         tags: ['css'],
       },
       {
-        id: 25,
+        name: 'chrisnager.com v1',
+        description: 'Origins',
+        url: 'https://web.archive.org/web/20110808135606/http://chrisnager.com/portfolio/#chrisnager-v1',
+        tags: ['site', 'html', 'css', 'javascript'],
+      },
+      {
         name: 'chrisnager.com v2',
         description: 'Care to reminisce?',
-        url: '',
-        tags: ['css'],
+        url: 'https://web.archive.org/web/20110809085951/http://chrisnager.com/',
+        tags: ['site', 'html', 'css', 'javascript'],
       },
       {
-        id: 26,
+        name: 'chrisnager.com v3',
+        description: 'Iterate',
+        url: 'https://web.archive.org/web/20161001182013/http://chrisnager.com/',
+        tags: ['site', 'html', 'css', 'javascript'],
+      },
+      {
         name: 'Ben Thomson Photo',
         description: 'Awwwards Site of the Day',
-        url: '',
-        tags: ['css'],
+        url: 'https://www.awwwards.com/sites/ben-thomson-photography',
+        tags: ['site', 'html', 'css', 'branding', 'logo', 'ux', 'research', 'ui'],
       },
       {
-        id: 27,
         name: 'Totally Fresh',
         description: 'Experimental CSS3 design featured on Smashing Magazine',
-        url: '',
-        tags: ['css'],
+        url: 'https://www.smashingmagazine.com/2010/07/css3-design-contest-results/',
+        tags: ['css', 'competition'],
+      },
+      {
+        name: 'Center and crop images with a single line of CSS',
+        description: '19 Jan 2015',
+        url: '#',
+        tags: ['css', 'post'],
+      },
+      {
+        name: 'Bespoke SVG Reference',
+        description: '23 May 2014',
+        url: '#',
+        tags: ['svg', 'post'],
+      },
+      {
+        name: 'Analog-style LED clock concept',
+        description: '25 Mar 2014',
+        url: '#',
+        tags: ['css', 'post'],
+      },
+      {
+        name: 'Simple vertical centering with CSS',
+        description: '10 Jan 2014',
+        url: '#',
+        tags: ['css', 'post'],
+      },
+      {
+        name: 'NYC Subway Lines reimagined with long shadow design',
+        description: '29 Jun 2013',
+        url: '#',
+        tags: ['css', 'post'],
+      },
+      {
+        name: 'Time-based media queries',
+        description: '25 Mar 2013',
+        url: '#',
+        tags: ['css', 'post'],
+      },
+      {
+        name: 'Hue bump with Sass @for control directive',
+        description: '17 Jan 2013',
+        url: '#',
+        tags: ['css', 'post'],
+      },
+      {
+        name: 'Display icons with custom data-attributes',
+        description: '21 Dec 2012',
+        url: '#',
+        tags: ['css', 'post'],
+      },
+      {
+        name: 'Circles',
+        description: '19 Dec 2012',
+        url: '#',
+        tags: ['css', 'post'],
+      },
+      {
+        name: 'Video and audio in CSS',
+        description: '04 Dec 2012',
+        url: '#',
+        tags: ['css', 'post'],
+      },
+      {
+        name: 'Natural curves',
+        description: '08 Nov 2012',
+        url: '#',
+        tags: ['css', 'post'],
+      },
+      {
+        name: 'My initials',
+        description: '23 Oct 2012',
+        url: '#',
+        tags: ['css', 'post'],
+      },
+      {
+        name: 'Touchable textures with CSS - can you feel me?',
+        description: '18 Oct 2012',
+        url: '#',
+        tags: ['css', 'post'],
+      },
+      {
+        name: 'Further simplified hexcodes',
+        description: '18 Sep 2012',
+        url: '#',
+        tags: ['css', 'post'],
+      },
+      {
+        name: 'Box sizing for pseudo elements',
+        description: '09 Sep 2012',
+        url: '#',
+        tags: ['css', 'post'],
+      },
+      {
+        name: 'An Event Apart and a Designer’s View of the Web',
+        description: '23 Sep 2011',
+        url: '#',
+        tags: ['css', 'post'],
+      },
+      {
+        name: 'CSS3 ::selection background color trick',
+        description: '09 Sep 2011',
+        url: '#',
+        tags: ['css', 'post'],
+      },
+      {
+        name: 'Chris Nager 2012 (Responsive Design)',
+        description: '18 Aug 2011',
+        url: '#',
+        tags: ['css', 'post'],
+      },
+      {
+        name: 'ChrisNager.com v2 is live',
+        description: '12 Jun 2011',
+        url: '#',
+        tags: ['css', 'post'],
       },
     ],
   },
@@ -400,7 +389,7 @@ const Social = () => (
   </nav>
 )
 
-const Tag = ({label}) => <span>{label}</span>
+const Tag = ({label}) => <i>{label}</i>
 
 const Intro = ({data}) => (
   <header>
@@ -410,12 +399,16 @@ const Intro = ({data}) => (
       <p>{data.description}</p>
       <div>
         <h2>Stuff I enjoy</h2>
-        {data.skills.map(skill => <Tag label={skill} />)}
+        {data.skills.map((skill, index) => <Tag key={index} label={skill} />)}
       </div>
       <Social />
     </div>
 
     <style jsx>{`
+      h1 {
+        font-size: 3rem;
+      }
+
       b {
         font-weight: normal;
         font-size: 6rem;
@@ -431,26 +424,22 @@ const Intro = ({data}) => (
 )
 
 const Section = ({data}) => (
-  <section id={data.name.toLowerCase()}>
-    <div>
-      <h1>
-        <a href={`#${data.name.toLowerCase()}`}>{data.name}</a>
-      </h1>
+  <section id="entries">
+    <h1><a href={`#${data.name.toLowerCase()}`}>{data.name}</a></h1>
 
-      <hr />
+    <hr />
 
-      <ul>
-        {data.entries.map(({id, url, name, description, tags}) => (
-          <li key={id}>
-            <a href={url}>
-              <h2>{name}</h2>
-              <p>{description}</p>
-            </a>
-            {tags.map((tag, index) => <Tag key={index} label={tag} />)}
-          </li>
-        ))}
-      </ul>
-    </div>
+    <ul>
+      {data.entries.map(({url, name, description, tags}, index) => (
+        <li key={index}>
+          <a href={url} style={{fontFamily: tags.indexOf('post') !== -1 ? 'Georgia, serif' : tags.indexOf('job') !== -1 ? 'inherit' : 'monospace'}}>
+            <h2>{name}</h2>
+            <p>{description}</p>
+          {tags && tags.map((tag, index) => <Tag key={index} label={tag} />)}
+          </a>
+        </li>
+      ))}
+    </ul>
 
     <style jsx>{`
       @media (min-width: 60em) {
@@ -460,9 +449,7 @@ const Section = ({data}) => (
         }
 
         li {
-          box-sizing: border-box;
           width: 50%;
-          padding: 1rem;
           display: inline-block;
           vertical-align: top;
         }
@@ -483,22 +470,30 @@ const Section = ({data}) => (
         content: " #";
       }
 
+      h2 {
+        margin-bottom: 0;
+        font-size: 1rem;
+      }
+
+      p {
+        margin-top: 0;
+      }
+
       ul {
         list-style-type: none;
         padding-left: 0;
       }
 
       li {
-        margin-bottom: 4rem;
+        /* margin-bottom: 4rem; */
       }
 
-      a {
+      li > a {
+        box-sizing: border-box;
+        min-height: 300px;
+        min-height: 15vw;
+        padding: 1rem;
         display: block;
-      }
-
-      a:hover,
-      a:focus {
-        text-decoration: underline;
       }
     `}</style>
   </section>
@@ -509,13 +504,13 @@ const Outro = () => (
     <div>
       <Social />
       <p>
-        <small>&copy; {year} Chris Nager &middot; Built in vim with react and next.js.</small>
+        <small>&copy; {year} Chris Nager &middot; Built in vim with next.js.</small>
       </p>
     </div>
   </footer>
 )
 
-export default ({profile, projects, posts}) => (
+export default () => (
   <div>
     <Head>
       <title>Chris Nager</title>
@@ -525,7 +520,7 @@ export default ({profile, projects, posts}) => (
     <Intro data={data.intro} />
     <main>
       <Section data={data.projects} />
-      <Section data={data.posts} />
+      <Section data={data.career} />
     </main>
     <Outro />
     <style>{`
@@ -567,12 +562,17 @@ export default ({profile, projects, posts}) => (
         background-size: 13px 10px;
       }
 
-      span {
-        border: 1px solid;
-        padding: .125rem .25rem;
-        display: inline-block;
+      i {
         margin-right: .5rem;
-        margin-bottom: .5rem;
+        font-size: .75rem;
+        color: #888;
+      }
+
+      a:hover,
+      a:focus {
+        text-decoration: underline;
+        color: red;
+        background-color: #0cf;
       }
     `}</style>
   </div>
