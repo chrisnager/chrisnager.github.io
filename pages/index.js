@@ -394,7 +394,11 @@ const Tag = ({label}) => <i>{label}</i>
 const Intro = ({data}) => (
   <header>
     <div>
-      <b>{data.logo}</b>
+      <svg width="200" viewBox="0 0 35 16" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="8" cy="8" r="8" />
+        <rect x="20" y="1" width="14" height="14" />
+      </svg>
+      <b>{false && data.logo}</b>
       <h1>{data.name}</h1>
       <p>{data.description}</p>
       <div>
@@ -405,8 +409,17 @@ const Intro = ({data}) => (
     </div>
 
     <style jsx>{`
+      svg {
+        margin-left: calc(-200px / 35);
+        display: block;
+      }
+
       h1 {
+        font-weight: normal;
         font-size: 3rem;
+        font-family: Futura;
+        text-transform: uppercase;
+        letter-spacing: .2em;
       }
 
       b {
