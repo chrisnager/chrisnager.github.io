@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 2em;
-  font: 2em/1.5 BlinkMacSystemFont, sans-serif;
+  font: 1.25em/1.5 BlinkMacSystemFont, sans-serif;
 }
 
 a {
@@ -22,6 +22,17 @@ p {
   margin-top: 0;
 }
 
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
 hr {
   border: none;
   height: 7px;
@@ -31,7 +42,7 @@ hr {
 }
 
 pre {
-  line-height: normal
+  line-height: normal;
 }
 
 .container {
