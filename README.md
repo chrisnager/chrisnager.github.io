@@ -42,8 +42,8 @@ The simplest responsive css grid
 Debug your layouts with one line of CSS
 * layout
 
-## [Emoonji](https://bit.do/emoonji)
-A chatbot
+## [Emoonji 🌝](https://bit.do/emoonji)
+A friendly chatbot that sends the current moon phases with emojis
 * chatbot
 * javascript
 * firebase
