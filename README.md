@@ -1,6 +1,4 @@
----
-title: Chris Nager
----
+![wat](https://media.giphy.com/media/Z3J3wIvv8lGrm/giphy.gif)
 
 # Chris Nager
 Minimalist developer-designer in Brooklyn, NY
