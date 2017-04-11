@@ -1,10 +1,14 @@
+---
+title: Chris Nager
+---
+
 # Chris Nager
 Minimalist developer-designer in Brooklyn, NY
 
 ## [>](https://bit.ly/smajor)
 Signum majoritatis (>) is a side-scrolling game built in a single string
 
-## [Emoonji :full_moon_with_face:](https://bit.do/emoonji)
+## [Emoonji :full_moon_with_face: 🌝](https://bit.do/emoonji)
 A friendly chatbot that sends the current moon phases with emojis
 
 ## [ungrid](https://chrisnager.github.io/ungrid)
@@ -19,6 +23,7 @@ All available cursors
 ```javascipt
 const {holla} = tchaboy
 
-test => test * 2
+function hello(world) {
+  return world * 2
+}
 ```
-
