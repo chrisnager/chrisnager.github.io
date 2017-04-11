@@ -1,13 +1,19 @@
-![wat](https://media.giphy.com/media/Z3J3wIvv8lGrm/giphy.gif)
+```
 
-~~wat~~
+                   :.
+      ,ad8888ba,   888b      88
+     d8"'    `"8b  8888b     88
+    d8'            88 `8b    88
+    88             88  `8b   88
+    88             88   `8b  88
+    Y8,            88    `8b 88
+     Y8a.    .a8P  88     `8888
+      `"Y8888Y"'   88      `888
+                             `'
 
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+```
 
-# Chris Nager
+# ~~Chris Nager~~
 Minimalist developer-designer in Brooklyn, NY
 
 ## [> Signum majoritatis](http://bit.ly/smajor)
