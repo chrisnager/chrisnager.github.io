@@ -20,6 +20,7 @@ h2 {
 
 p {
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 ul {
@@ -31,6 +32,7 @@ ul {
 
 li {
   display: inline-block;
+  font-style: italic;
 }
 
 hr {
