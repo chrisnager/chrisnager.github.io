@@ -18,7 +18,8 @@ Minimalist developer-designer in Brooklyn, NY
 
 ## [> Signum majoritatis](http://bit.ly/smajor)
 A side-scrolling game built in a single string
-'javascript', 'game'
+* javascript
+* game
 
 ## [hexcodes](https://chrisnager.github.io/hexcodes/)
 All 4,096 shorthand hexcodes
