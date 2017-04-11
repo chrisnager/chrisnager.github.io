@@ -1,5 +1,12 @@
 ![wat](https://media.giphy.com/media/Z3J3wIvv8lGrm/giphy.gif)
 
+~~wat~~
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
 # Chris Nager
 Minimalist developer-designer in Brooklyn, NY
 
@@ -202,11 +209,3 @@ Experimental CSS3 design featured on Smashing Magazine
 ## [ChrisNager.com v2 is live](#)
 12 Jun 2011
 'css', 'post'
-
-```javascipt
-const {holla} = tchaboy
-
-function hello(world) {
-  return world * 2
-}
-```
