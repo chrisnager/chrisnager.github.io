@@ -221,3 +221,4 @@ Experimental CSS3 design featured on Smashing Magazine
 * [@chrisnager](https://mobile.twitter.com/chrisnager)
 * [GitHub](https://github.com/chrisnager)
 
+&copy;2017 Chris Nager
