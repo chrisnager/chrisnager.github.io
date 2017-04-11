@@ -5,4 +5,14 @@ html {
 
 a {
   color: red;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  border: none;
+  height: 7px;
+  background: linear-gradient(-135deg, transparent 4px, #000 5px, transparent 0), linear-gradient(135deg, transparent 4px, #000 5px, transparent 0);
+  background-repeat: repeat-x;
+  background-size: 13px 10px;
 }
