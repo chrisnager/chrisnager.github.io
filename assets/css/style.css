@@ -1,6 +1,7 @@
 html {
   font: 1em/1.5 BlinkMacSystemFont, sans-serif;
-  background-color: #0cf;
+  color: #232321;
+  background-color: #faf0dc;
 }
 
 a {
@@ -10,9 +11,8 @@ a {
 
 a:hover,
 a:focus {
-  border: none;
-  height: 7px;
   background: linear-gradient(-135deg, transparent 4px, #000 5px, transparent 0), linear-gradient(135deg, transparent 4px, #000 5px, transparent 0);
   background-repeat: repeat-x;
   background-size: 13px 10px;
+  background-position: left bottom;
 }
