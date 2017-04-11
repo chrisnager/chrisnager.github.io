@@ -1,4 +1,6 @@
-html {
+body {
+  margin: 0;
+  padding: 2em;
   font: 1em/1.5 BlinkMacSystemFont, sans-serif;
   color: #232321;
   background-color: #faf0dc;
@@ -14,5 +16,11 @@ a:focus {
   background: linear-gradient(-135deg, transparent 4px, #000 5px, transparent 0), linear-gradient(135deg, transparent 4px, #000 5px, transparent 0);
   background-repeat: repeat-x;
   background-size: 13px 10px;
-  background-position: left bottom;
+  background-position: left -13px;
+}
+
+.container {
+  max-width: 60em;
+  margin-right: auto;
+  margin-left: auto;
 }
