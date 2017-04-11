@@ -14,6 +14,8 @@ Y8,            88    `8b 88
 # ~~Chris Nager~~
 Minimalist developer-designer in Brooklyn, NY
 
+---
+
 ## [> Signum majoritatis](http://bit.ly/smajor)
 A side-scrolling game built in a single string
 'javascript', 'game'
