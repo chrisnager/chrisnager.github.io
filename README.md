@@ -1,15 +1,4 @@
-```
-               :.
-  ,ad8888ba,   888b      88
- d8"'    `"8b  8888b     88
-d8'            88 `8b    88
-88             88  `8b   88
-88             88   `8b  88
-Y8,            88    `8b 88
- Y8a.    .a8P  88     `8888
-  `"Y8888Y"'   88      `888
-                         `'
-```
+![Circle square](https://cloud.githubusercontent.com/assets/547599/24936250/ab6438a6-1ef5-11e7-9ae6-ccab738b679a.png)
 
 # ~~Chris Nager~~
 Minimalist developer-designer in Brooklyn, NY
