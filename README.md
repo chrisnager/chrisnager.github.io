@@ -1,5 +1,7 @@
 ![Circle square](https://cloud.githubusercontent.com/assets/547599/24936250/ab6438a6-1ef5-11e7-9ae6-ccab738b679a.png)
 
+![an example red dot](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg==)
+
 # ~~Chris Nager~~
 Minimalist developer-designer in Brooklyn, NY
 
