@@ -5,6 +5,17 @@ Minimalist developer-designer in Brooklyn, NY
 
 ---
 
+<div style="background-color: red; padding: 2rem; text-align: center;">
+  <h2>Testing this `h2` business.</h2>
+  
+---
+  
+* one
+* two
+* three
+
+</div>
+
 ## [> Signum majoritatis](http://bit.ly/smajor)
 A side-scrolling game built in a single string
 * javascript
