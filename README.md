@@ -1,3 +1,5 @@
+<title>Chris Nager</title>
+
 ![Circle square](https://cloud.githubusercontent.com/assets/547599/24936250/ab6438a6-1ef5-11e7-9ae6-ccab738b679a.png)
 
 # ~~Chris Nager~~
