@@ -7,17 +7,21 @@ permalink: /profile/
 
 # Hi, I'm Chris.
 
-I create usable, responsive, future-friendly sites and apps with HTML5, CSS3, JavaScript, Haml, Sass, BEM, OOCSS, RWD, Markdown, PHP, Gulp, Grunt, Bower, npm, Jekyll, Vim, and Git.
+I create usable, responsive, future-friendly sites and apps with HTML5, CSS3, JavaScript, React, React Native, Node.js, PostCSS, Pug, Haml, Sass, BEM, OOCSS, RWD, Markdown, PHP, Gulp, Grunt, Bower, npm, Yarn, Jekyll, Vim, and Git.
 
 <a href="//instagram.com/chrisnager"><img class="profile-image" src="/img/snowstorm.jpg" alt="Chris Nager in Brooklyn, NY during a snow storm" title="Chris Nager in Brooklyn, NY during a snow storm"></a>
 
-I'm ambitious, self-driven, and enthusiastic about the future of the web. I currently work in New York City as a Front End Engineer at Salesforce.com. Using the latest web technologies and languages, I strive to build beautifully designed and masterfully coded websites and apps. I continually learn from and contribute to the web community and constantly find myself taking on self-initiated [side projects](/projects). I merge the gap between designer and developer by taking my designs from pen and paper to usable, performance-first online experiences.
+I'm ambitious, self-driven, and enthusiastic about the future of the web. I currently work in New York City as a Front End Engineer at IEX, previously at Salesforce.com. Using the latest web technologies and languages, I strive to build beautifully designed and masterfully coded websites and apps. I continually learn from and contribute to the web community and constantly find myself taking on self-initiated [side projects](/projects). I merge the gap between designer and developer by taking my designs from pen and paper to usable, performance-first online experiences.
 
 [Say hello](mailto:chris@chrisnager.com).
 
 ---
 
 # Experience
+
+## IEX
+### Front End Engineer, UX
+Build IEX's website, web applications, iOS and Android applications, web API, design systems, marketing, and company branding.
 
 ## Salesforce.com
 ### Front End Engineer, Member of Technical Staff, Engineering
@@ -46,6 +50,15 @@ Designed, sliced and developed website templates in Adobe Fireworks, Adobe Photo
 
 
 # Speaking
+
+## IEX Internal Company Presentation
+React: The library that powers our apps
+
+## IEX Internal Company Presentation
+Say hello to the IEX API
+
+## [TechCrunch Disrupt Hackathon Presentation 2017](//techcrunch.com/video/whentho/591879ff1de5a12724606c06)
+When - Chatbot for location recommendations
 
 ## Salesforce Internal UX and Engineering Presentation
 A new era for CSS
