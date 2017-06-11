@@ -1,0 +1,19 @@
+---
+layout: default
+title: chrisnager.com
+page-class: page--playground
+---
+
+<ul class="posts">
+    {% for post in site.posts %}
+        <li class="post">
+            <a class="post__link" href="{{ post.url }}">
+                <span class="post__date">{{ post.date | date_to_string }}</span>
+                <h1 class="post__title">{{ post.title }}</h1>
+            </a>
+        </li>
+    {% endfor %}
+</ul>
+
+
+<!-- <p class="post__content">{ post.content | split: '<!-- more --><!-- ' | first }</p> -->

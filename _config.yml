@@ -1,0 +1,8 @@
+name: chrisnager.com
+markdown: redcarpet
+pygments: true
+permalink: /:title
+analytics:
+    provider: google
+    google:
+        tracking_id: 'UA-3632655-1'
