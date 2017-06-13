@@ -1,6 +1,6 @@
 name: chrisnager.com
 markdown: kramdown
-pygments: true
+highlighter: rouge
 permalink: /:title
 analytics:
     provider: google
