@@ -31,7 +31,7 @@
 }
 
 html {
-    font: 75%/1.7 "Open Sans", "proxima-nova-1", "proxima-nova-2", "Helvetica Neue", sans-serif;
+    font: 75%/1.7 -apple-system, BlinkMacSystemFont, sans-serif;
     color: #222;
     background-color: #f6f8f7;
 }
