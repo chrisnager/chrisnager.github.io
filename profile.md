@@ -7,7 +7,7 @@ permalink: /profile/
 
 # Hi, I'm Chris.
 
-I create usable, responsive, future-friendly sites and apps with HTML5, CSS3, JavaScript, React, React Native, Node.js, PostCSS, Pug, Haml, Sass, BEM, OOCSS, RWD, Markdown, PHP, Gulp, Grunt, Bower, npm, Yarn, Jekyll, Vim, and Git.
+I create usable, responsive, future-friendly sites and apps with HTML5, CSS3, JavaScript, React, React Native, Node.js, PostCSS, Pug, Haml, Sass, BEM, OOCSS, RWD, Markdown, PHP, Gulp, npm, Yarn, Jekyll, Vim, and Git.
 
 <a href="//instagram.com/chrisnager"><img class="profile-image" src="/img/snowstorm.jpg" alt="Chris Nager in Brooklyn, NY during a snow storm" title="Chris Nager in Brooklyn, NY during a snow storm"></a>
 
