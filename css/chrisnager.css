@@ -37,7 +37,7 @@ html {
 }
 
 ::selection {
-    color: white;
+    color: #fff;
     text-shadow: none;
     background-color: #ff3600;
 }
@@ -263,8 +263,8 @@ iframe {
 .copyright {
     margin-bottom: 0;
     padding: 1.25rem 1rem;
-    color: white;
-    background-color: #f20;
+    color: #fff;
+    background-color: #222;
 }
 
 .copyright p {
@@ -272,7 +272,7 @@ iframe {
 }
 
 .copyright a {
-    color: white;
+    color: #fff;
 }
 
 
@@ -344,7 +344,7 @@ iframe {
 .social-links > li > a:hover,
 .social-links > li > a:focus {
     border-color: #222;
-    color: white;
+    color: #fff;
     background-color: #222;
 }
 
