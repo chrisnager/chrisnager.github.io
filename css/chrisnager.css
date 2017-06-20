@@ -74,9 +74,10 @@ ul {
 }
 
 pre {
-    border: 1px solid #ddd;
+    border: 1px solid var(--white);
     border-radius: 4px;
     padding: 1rem;
+    background-color: transparent !important;
 }
 
 a {
