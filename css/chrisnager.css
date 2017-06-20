@@ -109,7 +109,7 @@ iframe {
     margin-top: 0;
     margin-bottom: 0.5rem;
     font-weight: 500;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: Futura, -apple-system, BlinkMacSystemFont, sans-serif;
     line-height: 1.3;
     letter-spacing: 0.2em;
@@ -124,15 +124,6 @@ iframe {
 .logo > a:hover,
 .logo > a:focus {
     color: black;
-}
-
-.logo > a:hover > .logo__alt,
-.logo > a:focus > .logo__alt {
-    color: #0cf;
-}
-
-.logo__alt {
-    color: #e4eef3;
 }
 
 
