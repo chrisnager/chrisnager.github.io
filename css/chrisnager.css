@@ -179,7 +179,7 @@ iframe {
 .project__link:hover .project__title,
 .post__link:focus .post__title,
 .project__link:focus .project__title {
-    color: #0cf;
+    color: #fff;
 }
 
 .post__title,
@@ -213,7 +213,7 @@ iframe {
 
 .alert {
     margin-bottom: 20px;
-    border: 1px solid #FBEED5;
+    border: 1px solid #fbeed5;
     border-radius: 4px;
     padding: 8px 35px 8px 14px;
     color: #C09853;
@@ -264,6 +264,7 @@ iframe {
     margin-bottom: 0;
     padding: 1.25rem 1rem;
     background-color: #fff;
+    color: #f20;
 }
 
 .copyright p {
@@ -310,6 +311,7 @@ iframe {
     font-size: 0.875rem;
     line-height: 1;
     text-decoration: none;
+    color: #fff;
 }
 
 .social-links > li > a {
