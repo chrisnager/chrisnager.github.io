@@ -32,8 +32,8 @@
 
 html {
     font: 75%/1.7 -apple-system, BlinkMacSystemFont, sans-serif;
-    color: #222;
-    background-color: #f6f8f7;
+    color: #fff;
+    background-color: #f20;
 }
 
 ::selection {
@@ -47,7 +47,7 @@ ul, ol, dd,
 p, figure,
 pre, table, fieldset, hr {
     margin-top: 0;
-    margin-bottom:1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 h1 {
@@ -62,13 +62,13 @@ ul {
 }
 
 pre {
-    border: 1px solid #DDD;
+    border: 1px solid #ddd;
     border-radius: 4px;
     padding: 1rem;
 }
 
 a {
-    color: inherit;
+    color: #0cf;
 }
 
 img {
@@ -263,16 +263,11 @@ iframe {
 .copyright {
     margin-bottom: 0;
     padding: 1.25rem 1rem;
-    color: #fff;
-    background-color: #222;
+    background-color: #fff;
 }
 
 .copyright p {
     margin-bottom: 0;
-}
-
-.copyright a {
-    color: #fff;
 }
 
 
@@ -343,9 +338,9 @@ iframe {
 .social-links > li > a:active,
 .social-links > li > a:hover,
 .social-links > li > a:focus {
-    border-color: #222;
-    color: #fff;
-    background-color: #222;
+    border-color: #fff;
+    color: #f20;
+    background-color: #fff;
 }
 
 .social-links > li > a > .icon {
@@ -356,12 +351,12 @@ iframe {
 }
 
 .social-links > li > a > .icon path {
-    fill: #222;
+    fill: #fff;
 }
 
 .social-links > li > a:hover > .icon path,
 .social-links > li > a:focus > .icon path {
-    fill: #fff;
+    fill: #f20;
 }
 
 
