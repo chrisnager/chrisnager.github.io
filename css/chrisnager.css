@@ -138,11 +138,6 @@ iframe {
     text-decoration: none;
 }
 
-.logo > a:hover,
-.logo > a:focus {
-    color: var(--key);
-}
-
 
 
 
