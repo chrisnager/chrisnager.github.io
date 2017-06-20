@@ -90,10 +90,10 @@ iframe {
    ========================================================================== */
 
 .site {
-    max-width: 39.5rem;
+    max-width: 80rem;
     margin-right: auto;
     margin-left: auto;
-    padding: 3.5rem 1rem 1rem;
+    padding: 3.5rem 2rem 1rem;
 }
 
 
@@ -109,7 +109,7 @@ iframe {
     margin-top: 0;
     margin-bottom: 0.5rem;
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: Futura, -apple-system, BlinkMacSystemFont, sans-serif;
     line-height: 1.3;
     letter-spacing: 0.2em;
@@ -132,7 +132,7 @@ iframe {
 }
 
 .logo__alt {
-    color: #bcdeef;
+    color: #e4eef3;
 }
 
 
@@ -211,6 +211,7 @@ iframe {
 .post__title,
 .project__title {
     margin-top: 0;
+    font-weight: 800;
 }
 
 .project__title {
