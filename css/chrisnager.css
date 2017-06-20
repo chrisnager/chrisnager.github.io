@@ -68,7 +68,7 @@ pre {
 }
 
 a {
-    color: #0cf;
+    color: inherit;
 }
 
 img {
@@ -118,7 +118,6 @@ iframe {
 
 .logo > a {
     text-decoration: none;
-    color: #222;
 }
 
 .logo > a:hover,
@@ -142,21 +141,6 @@ iframe {
     font-weight: 100;
     font-size: 1.25rem;
 }
-
-.tagline a {
-    color: #222;
-}
-
-
-
-
-
-
-/* ==========================================================================
-   Group
-   ========================================================================== */
-
-.group {}
 
 
 
@@ -189,7 +173,6 @@ iframe {
 .project__link {
     display: block;
     text-decoration: none;
-    color: #222;
 }
 
 .post__link:hover .post__title,
@@ -332,7 +315,6 @@ iframe {
     font-size: 0.875rem;
     line-height: 1;
     text-decoration: none;
-    color: #0cf;
 }
 
 .social-links > li > a {
@@ -361,9 +343,9 @@ iframe {
 .social-links > li > a:active,
 .social-links > li > a:hover,
 .social-links > li > a:focus {
-    border-color: #0cf;
+    border-color: #222;
     color: white;
-    background-color: #0cf;
+    background-color: #222;
 }
 
 .social-links > li > a > .icon {
@@ -374,7 +356,7 @@ iframe {
 }
 
 .social-links > li > a > .icon path {
-    fill: #0cf;
+    fill: #222;
 }
 
 .social-links > li > a:hover > .icon path,
