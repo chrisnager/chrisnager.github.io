@@ -84,6 +84,11 @@ a {
     color: var(--white);
 }
 
+a:hover,
+a:focus {
+  color: var(--blue);
+}
+
 img {
     max-width: 100%;
 }
@@ -192,7 +197,7 @@ iframe {
 .project__link:hover .project__title,
 .post__link:focus .post__title,
 .project__link:focus .project__title {
-    color: var(--white);
+    /*color: var(--white);*/
 }
 
 .post__title,
