@@ -22,6 +22,14 @@
    Base
    ========================================================================== */
 
+:root {
+  --blue: #0cf;
+  --red: #f20;
+  --white: #fff;
+  --black: #222;
+  --key: #000;
+}
+
 *,
 :before,
 :after {
@@ -32,12 +40,12 @@
 
 html {
     font: 75%/1.7 -apple-system, BlinkMacSystemFont, sans-serif;
-    color: #fff;
-    background-color: #f20;
+    color: var(--white);
+    background-color: var(--red);
 }
 
 ::selection {
-    color: #fff;
+    color: var(--white);
     text-shadow: none;
     background-color: #ff3600;
 }
@@ -68,7 +76,7 @@ pre {
 }
 
 a {
-    color: #0cf;
+    color: var(--white);
 }
 
 img {
@@ -122,7 +130,7 @@ iframe {
 
 .logo > a:hover,
 .logo > a:focus {
-    color: black;
+    color: var(--key);
 }
 
 
@@ -179,7 +187,7 @@ iframe {
 .project__link:hover .project__title,
 .post__link:focus .post__title,
 .project__link:focus .project__title {
-    color: #fff;
+    color: var(--white);
 }
 
 .post__title,
@@ -263,8 +271,8 @@ iframe {
 .copyright {
     margin-bottom: 0;
     padding: 1.25rem 1rem;
-    background-color: #fff;
-    color: #f20;
+    background-color: var(--white);
+    color: var(--red);
 }
 
 .copyright p {
@@ -311,7 +319,7 @@ iframe {
     font-size: 0.875rem;
     line-height: 1;
     text-decoration: none;
-    color: #fff;
+    color: var(--white);
 }
 
 .social-links > li > a {
@@ -340,9 +348,9 @@ iframe {
 .social-links > li > a:active,
 .social-links > li > a:hover,
 .social-links > li > a:focus {
-    border-color: #fff;
-    color: #f20;
-    background-color: #fff;
+    border-color: var(--white);
+    color: var(--red);
+    background-color: var(--white);
 }
 
 .social-links > li > a > .icon {
@@ -353,12 +361,12 @@ iframe {
 }
 
 .social-links > li > a > .icon path {
-    fill: #fff;
+    fill: var(--white);
 }
 
 .social-links > li > a:hover > .icon path,
 .social-links > li > a:focus > .icon path {
-    fill: #f20;
+    fill: var(--red);
 }
 
 
