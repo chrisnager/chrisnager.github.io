@@ -50,12 +50,16 @@ html {
     background-color: #ff3600;
 }
 
-h1, h2, h3, h4, h5, h6, hgroup,
+h1, h2, h3, h4, h5, h6,
 ul, ol, dd,
 p, figure,
 pre, table, fieldset, hr {
     margin-top: 0;
     margin-bottom: 1.5rem;
+}
+
+h1, h2, h3 {
+    font-weight: 800;
 }
 
 h1 {
@@ -193,7 +197,6 @@ iframe {
 .post__title,
 .project__title {
     margin-top: 0;
-    font-weight: 800;
 }
 
 .project__title {
@@ -277,6 +280,10 @@ iframe {
 
 .copyright p {
     margin-bottom: 0;
+}
+
+.copyright a {
+    color: inherit;
 }
 
 
