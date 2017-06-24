@@ -283,5 +283,5 @@ Experimental CSS3 design featured on Smashing Magazine
 
 I'm currently working as a Front End Engineer at [IEX](https://iextrading.com) and was previously at [Salesforce](https://salesforce.com). I am not taking on any new work, but feel free to [get in touch](mailto:chris@chrisnager.com).
 
-&copy;2017 Chris Nager &middot; Built in Vim with [Jekyll](https://jekyllrb.com). Hosted on [https://github.com/chrisnager/chrisnager.github.io](GitHub).
+&copy;2017 Chris Nager &middot; Built in Vim with [Jekyll](https://jekyllrb.com). Hosted on [GitHub](https://github.com/chrisnager/chrisnager.github.io).
 
