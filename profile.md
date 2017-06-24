@@ -9,7 +9,7 @@ permalink: /profile/
 
 I create usable, responsive, future-friendly sites and apps with HTML5, CSS3, JavaScript, React, React Native, Node.js, PostCSS, Pug, Haml, Sass, BEM, OOCSS, RWD, Markdown, PHP, Gulp, npm, Yarn, Jekyll, Vim, and Git.
 
-<a href="//instagram.com/chrisnager"><img class="profile-image" src="/img/snowstorm.jpg" alt="Chris Nager in Brooklyn, NY during a snow storm" title="Chris Nager in Brooklyn, NY during a snow storm"></a>
+<a href="//instagram.com/chrisnager"><img class="profile-image" src="/img/hat.jpg" alt="Chris Nager wearing his favorite Alabama hat" title="Chris Nager in Brooklyn, NY during a snow storm"></a>
 
 I'm ambitious, self-driven, and enthusiastic about the future of the web. I currently work in New York City as a Front End Engineer at IEX, previously at Salesforce.com. Using the latest web technologies and languages, I strive to build beautifully designed and masterfully coded websites and apps. I continually learn from and contribute to the web community and constantly find myself taking on self-initiated [side projects](/projects). I merge the gap between designer and developer by taking my designs from pen and paper to usable, performance-first online experiences.
 
