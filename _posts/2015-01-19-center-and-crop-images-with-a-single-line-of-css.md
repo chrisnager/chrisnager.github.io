@@ -11,7 +11,7 @@ categories:
 
 ## Using object-fit: cover
 
-![Image of bear that has been cropped on the sides](//i.imgur.com/7UPfS9W.jpg)
+![Image of bear that has been cropped on the sides](/img/bear.jpg)
 
 It’s simple. Set your image crop dimensions and use this line in your CSS:
 

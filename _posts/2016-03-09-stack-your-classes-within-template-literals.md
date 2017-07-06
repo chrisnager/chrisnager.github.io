@@ -12,7 +12,7 @@ tags:
 - es2015
 ---
 
-![Stacked stones](https://cdn-images-1.medium.com/max/1600/1*O8G8fBQQ-pkW9dNcKlE6lA.jpeg)
+![Stacked stones](/img/stones.jpg)
 
 The purpose of this article is to share a simple technique I use that involves [template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals), a useful feature of ES2015+. Template literals allow you to write multi line strings enclosed in back ticks, eliminating the need to escape each line with a backslash or having to concatenate each line with `+`.
 
@@ -108,3 +108,4 @@ $ git diff
 
 If you find this technique useful, ❤ this article. If you have any thoughts on the subject, let me know in the comments or reach out to me on Twitter [@chrisnager](http://twitter.com/chrisnager).
 
+_Cross posted on [Medium](https://medium.com/@chrisnager/stack-your-classes-within-template-literals-d537bf463d4a)_.
