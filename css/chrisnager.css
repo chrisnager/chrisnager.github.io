@@ -40,12 +40,12 @@
 
 html {
     font: 75%/1.7 -apple-system, BlinkMacSystemFont, sans-serif;
-    color: var(--white);
-    background-color: var(--red);
+    color: var(--black);
+    background-color: var(--blue);
 }
 
 ::selection {
-    color: var(--white);
+    color: var(--black);
     text-shadow: none;
     background-color: #ff3600;
 }
@@ -74,19 +74,19 @@ ul {
 }
 
 pre {
-    border: 1px solid var(--white);
+    border: 1px solid var(--black);
     border-radius: 4px;
     padding: 1rem;
     background-color: #111 !important;
 }
 
 a {
-    color: var(--white);
+    color: var(--black);
 }
 
 a:hover,
 a:focus {
-  color: var(--blue);
+  color: var(--red);
 }
 
 img {
@@ -132,6 +132,7 @@ iframe {
     line-height: 1.3;
     letter-spacing: 0.2em;
     text-transform: uppercase;
+    color: var(--red);
 }
 
 .logo > a {
@@ -191,7 +192,7 @@ iframe {
 .project__link:hover .project__title,
 .post__link:focus .post__title,
 .project__link:focus .project__title {
-    /*color: var(--white);*/
+    /*color: var(--black);*/
 }
 
 .post__title,
@@ -274,8 +275,8 @@ iframe {
 .copyright {
     margin-bottom: 0;
     padding: 1.25rem 1rem;
-    background-color: var(--white);
-    color: var(--red);
+    background-color: var(--black);
+    color: var(--blue);
 }
 
 .copyright p {
@@ -326,7 +327,7 @@ iframe {
     font-size: 0.875rem;
     line-height: 1;
     text-decoration: none;
-    color: var(--white);
+    color: var(--black);
 }
 
 .social-links > li > a {
@@ -355,9 +356,9 @@ iframe {
 .social-links > li > a:active,
 .social-links > li > a:hover,
 .social-links > li > a:focus {
-    border-color: var(--white);
-    color: var(--red);
-    background-color: var(--white);
+    border-color: var(--black);
+    color: var(--blue);
+    background-color: var(--black);
 }
 
 .social-links > li > a > .icon {
@@ -368,12 +369,12 @@ iframe {
 }
 
 .social-links > li > a > .icon path {
-    fill: var(--white);
+    fill: var(--black);
 }
 
 .social-links > li > a:hover > .icon path,
 .social-links > li > a:focus > .icon path {
-    fill: var(--red);
+    fill: var(--blue);
 }
 
 
