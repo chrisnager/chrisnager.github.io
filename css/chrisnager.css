@@ -41,13 +41,6 @@
 html {
     font: 75%/1.7 -apple-system, BlinkMacSystemFont, sans-serif;
     color: var(--black);
-    background-color: var(--blue);
-}
-
-::selection {
-    color: var(--black);
-    text-shadow: none;
-    background-color: #ff3600;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -74,19 +67,18 @@ ul {
 }
 
 pre {
-    border: 1px solid var(--black);
     border-radius: 4px;
     padding: 1rem;
     background-color: #111 !important;
 }
 
 a {
-    color: var(--black);
+    color: inherit;
 }
 
 a:hover,
 a:focus {
-  color: var(--red);
+  background-color: var(--blue);
 }
 
 img {
@@ -132,7 +124,7 @@ iframe {
     line-height: 1.3;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    color: var(--red);
+    color: var(--blue);
 }
 
 .logo > a {
@@ -191,9 +183,7 @@ iframe {
 .post__link:hover .post__title,
 .project__link:hover .project__title,
 .post__link:focus .post__title,
-.project__link:focus .project__title {
-    /*color: var(--black);*/
-}
+.project__link:focus .project__title {}
 
 .post__title,
 .project__title {
@@ -228,21 +218,8 @@ iframe {
     border: 1px solid #fbeed5;
     border-radius: 4px;
     padding: 8px 35px 8px 14px;
-    color: #C09853;
-    background: #FCF8E3;
-}
-
-
-
-
-
-
-/* ==========================================================================
-   Profile
-   ========================================================================== */
-
-.profile-image {
-    max-width: 100%;
+    color: #c09853;
+    background: #fcf8e3;
 }
 
 
@@ -276,15 +253,11 @@ iframe {
     margin-bottom: 0;
     padding: 1.25rem 1rem;
     background-color: var(--black);
-    color: var(--blue);
+    color: var(--white);
 }
 
 .copyright p {
     margin-bottom: 0;
-}
-
-.copyright a {
-    color: inherit;
 }
 
 
@@ -327,7 +300,6 @@ iframe {
     font-size: 0.875rem;
     line-height: 1;
     text-decoration: none;
-    color: var(--black);
 }
 
 .social-links > li > a {
@@ -357,7 +329,7 @@ iframe {
 .social-links > li > a:hover,
 .social-links > li > a:focus {
     border-color: var(--black);
-    color: var(--blue);
+    color: var(--white);
     background-color: var(--black);
 }
 
@@ -374,7 +346,7 @@ iframe {
 
 .social-links > li > a:hover > .icon path,
 .social-links > li > a:focus > .icon path {
-    fill: var(--blue);
+    fill: var(--white);
 }
 
 
