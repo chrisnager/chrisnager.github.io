@@ -319,9 +319,9 @@ iframe {
     width: 20%;
 }
 
+.page .nav__playground > a,
 .page--projects .nav__projects > a,
 .page--profile .nav__profile > a,
-.page--playground .nav__playground > a,
 .nav > li > a:active,
 .nav > li > a:hover,
 .nav > li > a:focus
@@ -331,6 +331,13 @@ iframe {
     border-color: var(--black);
     color: var(--white);
     background-color: var(--black);
+}
+
+.page--projects .nav__playground > a,
+.page--profile .nav__playground > a {
+    border-color: var(--white);
+    color: var(--black);
+    background-color: var(--white);
 }
 
 .social-links > li > a > .icon {
