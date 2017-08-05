@@ -69,7 +69,7 @@ ul {
 pre {
     border-radius: 4px;
     padding: 1rem;
-    background-color: #111 !important;
+    background-color: #eee !important;
 }
 
 a {
@@ -78,7 +78,7 @@ a {
 
 a:hover,
 a:focus {
-  background-color: var(--blue);
+    text-decoration: underline;
 }
 
 img {
