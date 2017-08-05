@@ -335,7 +335,6 @@ iframe {
 
 .page--projects .nav__playground > a,
 .page--profile .nav__playground > a {
-    border-color: var(--white);
     color: var(--black);
     background-color: var(--white);
 }
