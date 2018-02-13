@@ -56,7 +56,7 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 1.3;
 }
 
@@ -119,7 +119,7 @@ iframe {
     margin-top: 0;
     margin-bottom: 0.5rem;
     font-weight: 500;
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     font-family: Futura, -apple-system, BlinkMacSystemFont, sans-serif;
     line-height: 1.3;
     letter-spacing: 0.2em;
@@ -143,7 +143,7 @@ iframe {
 .tagline {
     margin-top: 0;
     margin-bottom: 3rem;
-    font-style: italic;
+    font-weight: 300;
     font-size: 1.25rem;
 }
 
@@ -171,7 +171,7 @@ iframe {
 
 .post,
 .project {
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
 .post__link,
@@ -198,10 +198,6 @@ iframe {
 .project__content {
     margin-top: 0;
     margin-bottom: 0;
-}
-
-.post__content h1 {
-    font-size: 2em;
 }
 
 
