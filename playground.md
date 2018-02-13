@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Playground &middot; chrisnager.com
+title: Playground · Chris Nager
 page-class: page--playground
 permalink: /playground/
 ---

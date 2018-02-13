@@ -1,14 +1,12 @@
-![chrisnager.com logo](http://chrisnager.com/wp-content/themes/boilerplate/images/footer-logo.png "chrisnager.com logo")
-
 # chrisnager.com
 
-Moving http://chrisnager.com from Wordpress to Jekyll
+Chris Nager's site
 
 # License
 
 The MIT License (MIT)
 
-Copyright (c) 2014 Chris Nager
+Copyright (c) 2018 Chris Nager
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -27,4 +25,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
