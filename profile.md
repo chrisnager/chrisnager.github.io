@@ -11,7 +11,7 @@ I create usable, responsive, future-friendly sites and apps with HTML5, CSS3, Ja
 
 <a href="https://www.instagram.com/chrisnager"><img class="profile-image" src="/img/hat.jpg" alt="Chris Nager wearing his favorite Alabama hat" title="Chris Nager wearing his favorite Alabama hat"></a>
 
-I'm ambitious, self-driven, and enthusiastic about the future of the web. I currently work in Brooklyn, New York as a Senior Software Developer at Air, previously at IEX and Salesforce. Using the latest web technologies and languages, I strive to build beautifully designed and masterfully coded websites and apps. I continually learn from and contribute to the web community and constantly find myself taking on self-initiated [side projects](/projects). I merge the gap between designer and developer by taking my designs from pen and paper to usable, performance-first online experiences.
+I'm ambitious, self-driven, and enthusiastic about the future of the web. I currently work in Brooklyn, New York as a Senior Software Developer at Air, previously at IEX and Salesforce.com. Using the latest web technologies and languages, I strive to build beautifully designed and masterfully coded websites and apps. I continually learn from and contribute to the web community and constantly find myself taking on self-initiated [side projects](/projects). I merge the gap between designer and developer by taking my designs from pen and paper to usable, performance-first online experiences.
 
 [Say hello](mailto:chris@chrisnager.com).
 
@@ -66,6 +66,8 @@ Designed and developed websites from scratch with Adobe Photoshop, HTML and CSS.
 ### Interactive Design Intern
 
 Designed, sliced and developed website templates in Adobe Fireworks, Adobe Photoshop, HTML and CSS. Worked in the Expression Engine content management system. Designed sites for a number of Blue Fish Design Studio's clients.
+
+---
 
 # Speaking
 
