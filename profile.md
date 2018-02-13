@@ -29,13 +29,13 @@ Build a video management web application, build Air's website, lead a team of ju
 
 ### Front End Engineer, UX
 
-Build IEX's website, web applications, iOS and Android applications, web API, design systems, marketing, and company branding.
+Built IEX's website, web applications, iOS and Android applications, web API, design systems, marketing, and company branding.
 
 ## Salesforce.com
 
 ### Front End Engineer, Member of Technical Staff, Engineering
 
-Build a scalable and maintainable front end that spans across our range of products. Document proper ways to implement our front end standards. Continuously update the front end bootstrap style guide with new design and code examples. Improve front end performance throughout our products.
+Built a scalable and maintainable front end that spans across our range of products. Document proper ways to implement our front end standards. Continuously update the front end bootstrap style guide with new design and code examples. Improve front end performance throughout our products.
 
 ## Salesforce.com
 
