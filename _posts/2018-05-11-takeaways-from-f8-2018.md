@@ -10,6 +10,6 @@ tags:
 - conference
 ---
 
-[![Farewell shot at Facebook's F8 2018](/img/monorepo.png)](https://medium.com/air-camera/takeaways-from-f8-2018-3dde54919490)
+[![Farewell shot at Facebook's F8 2018](/img/f8-2018.png)](https://medium.com/air-camera/takeaways-from-f8-2018-3dde54919490)
 
 Read it on [Medium](https://medium.com/air-camera/takeaways-from-f8-2018-3dde54919490).
