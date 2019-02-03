@@ -23,18 +23,8 @@ const Layout = ({ children }) => (
       },
     }) => (
       <>
-        <Header {...{ title, description }} />
-        <main
-          style={
-            {
-              // marginRight: 'auto',
-              // marginLeft: 'auto',
-              // maxWidth: '50rem',
-              // padding: '1rem',
-            }
-          }
-          {...{ children }}
-        />
+        <Header {...{ title }} />
+        <main {...{ children }} />
         <Footer />
       </>
     )}

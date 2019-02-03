@@ -5,17 +5,17 @@ import Nav from './nav'
 
 const links = [
   // { children: 'Profile', href: '#profile' },
-  { children: 'Projects', href: '#projects' },
-  { children: 'Writing', href: '#writing' },
-  { children: 'Speaking', href: '#speaking' },
-  { children: 'Experience', href: '#experience' },
+  { children: 'Projects', href: '/projects' },
+  { children: 'Writing', href: '/writing' },
+  { children: 'Speaking', href: '/speaking' },
+  { children: 'Experience', href: '/experience' },
 ]
 
-const Header = ({ title, description }) => (
+const Header = ({ title }) => (
   <header
     style={{
       boxSizing: 'border-box',
-      height: '100vh',
+      // height: '100vh',
       padding: '1rem',
       // backgroundColor: '#eac600',
       backgroundColor: 'hsla(344, 100%, 46%, 1)',
@@ -52,29 +52,16 @@ const Header = ({ title, description }) => (
         }}
         {...{ links }}
       />
-      <p
-        style={{
-          marginBottom: '5rem',
-          fontWeight: 600,
-          fontSize: '5.55vw',
-          lineHeight: '1.25em',
-          letterSpacing: '-0.015em',
-        }}
-      >
-        {description}
-      </p>
     </div>
   </header>
 )
 
 Header.propTypes = {
   title: PropTypes.string,
-  description: PropTypes.string,
 }
 
 Header.defaultProps = {
   title: ``,
-  description: ``,
 }
 
 export default Header

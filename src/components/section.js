@@ -1,7 +1,7 @@
 import { Link } from 'gatsby'
 import React from 'react'
 
-export default ({ title, content, backgroundColor }) => (
+export default ({ title, content, backgroundColor, home }) => (
   <section
     id={title.toLowerCase()}
     style={{
@@ -39,10 +39,10 @@ export default ({ title, content, backgroundColor }) => (
       </h1>
       <p
         style={{
-          marginBottom: '5rem',
+          // marginBottom: '5rem',
           fontWeight: 600,
-          fontSize: '2.5vw',
-          lineHeight: '1.25em',
+          fontSize: 18,
+          // lineHeight: '1.25em',
         }}
       >
         {content}
