@@ -8,7 +8,7 @@ const links = [
   { children: 'Projects', href: '/projects' },
   { children: 'Writing', href: '/writing' },
   { children: 'Speaking', href: '/speaking' },
-  { children: 'Experience', href: '/experience' },
+  { children: 'Experience', href: '#experience' },
 ]
 
 const Header = ({ title }) => (
@@ -18,7 +18,9 @@ const Header = ({ title }) => (
       // height: '100vh',
       padding: '1rem',
       // backgroundColor: '#eac600',
-      backgroundColor: 'hsla(344, 100%, 46%, 1)',
+      // backgroundColor: 'hsl(344, 100%, 46%)',
+      // backgroundColor: '#f83636',
+      backgroundColor: '#365ff8',
     }}
   >
     <div
@@ -27,11 +29,15 @@ const Header = ({ title }) => (
         marginLeft: 'auto',
         maxWidth: '70rem',
         // borderBottom: '2px solid',
+        display: 'flex',
+        alignItems: 'flex-end',
+        justifyContent: 'space-between',
       }}
     >
       <h1
         style={{
-          marginTop: '4rem',
+          // marginTop: '4rem',
+          marginTop: '90px',
           marginBottom: '.5rem',
           fontWeight: 500,
           fontSize: '2.25rem',
@@ -40,6 +46,7 @@ const Header = ({ title }) => (
           letterSpacing: '0.2em',
           textTransform: 'uppercase',
           color: '#fff',
+          textShadow: '2px 8px 24px rgba(0, 0, 0, .6)',
         }}
       >
         <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
@@ -47,9 +54,11 @@ const Header = ({ title }) => (
         </Link>
       </h1>
       <Nav
-        style={{
-          marginBottom: '3.25rem',
-        }}
+        style={
+          {
+            // marginBottom: '12px', // '3.25rem',
+          }
+        }
         {...{ links }}
       />
     </div>

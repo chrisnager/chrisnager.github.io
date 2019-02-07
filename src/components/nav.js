@@ -5,12 +5,13 @@ const Nav = ({ style, links }) => (
     style={{
       boxSizing: 'border-box',
       display: 'flex',
-      marginRight: '-1rem',
-      marginLeft: '-1rem',
-      padding: '.5rem',
+      // marginRight: '-1rem',
+      // marginLeft: '-1rem',
+      // padding: '.5rem',
       // borderTop: '3px solid',
       // borderBottom: '3px solid',
       overflowX: 'auto',
+      alignItems: 'center',
       ...style,
     }}
   >
@@ -20,11 +21,14 @@ const Nav = ({ style, links }) => (
         children={props.children}
         style={{
           boxSizing: 'border-box',
-          padding: '.5rem',
+          padding: '1px 0.5rem',
           fontWeight: '600',
-          fontSize: '17px',
+          fontSize: '20px', // Reduce at small sizes
           // textTransform: 'uppercase',
           // letterSpacing: '.15em',
+          // color: '#e2b3cf',
+          // color: '#34cbaf',
+          color: '#a2ecdf',
         }}
         {...props}
       />

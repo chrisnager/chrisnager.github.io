@@ -13,9 +13,11 @@ const Footer = () => (
   <footer
     style={{
       boxSizing: 'border-box',
-      padding: '1rem',
+      padding: '4rem 1rem',
       // backgroundColor: '#eac600',
-      backgroundColor: 'hsla(344, 100%, 46%, 1)',
+      // backgroundColor: 'hsla(344, 100%, 46%, 1)',
+      backgroundColor: '#365ff8',
+      color: '#fff',
     }}
   >
     <div
@@ -24,13 +26,16 @@ const Footer = () => (
         marginLeft: 'auto',
         maxWidth: '70rem',
         // borderBottom: '2px solid',
+        display: 'flex',
+        flexDirection: 'row-reverse',
+        justifyContent: 'space-between',
       }}
     >
       <Nav {...{ links }} />
       <div
-        style={{
-          paddingTop: '3rem',
-        }}
+      // style={{
+      //   paddingTop: '3rem',
+      // }}
       >
         {/* <p>
         I'm currently working as a Senior Software Developer at{' '}
@@ -41,13 +46,10 @@ const Footer = () => (
         <a href="mailto:chris@chrisnager.com">get in touch</a>.
       </p> */}
 
-        <p>
+        <p style={{ marginBottom: 0 }}>
           <small>
             © {new Date().getFullYear()} Chris Nager ·{' '}
-            <a href="https://github.com/chrisnager/chrisnager.github.io">
-              View source
-            </a>
-            .
+            <a href="https://github.com/chrisnager/chrisnager.github.io">View source</a>.
           </small>
         </p>
       </div>

@@ -36,6 +36,10 @@ h1 {
   /* background: cyan; */
 }
 
+h1 > a {
+  color: rgba(0, 0, 0, 0.8);
+}
+
 h2 {
   margin-top: 2.5rem;
   margin-bottom: 0.25rem;
@@ -89,4 +93,79 @@ a:focus {
   text-decoration: underline;
   /* text-decoration-color: royalblue; */
   text-underline-position: below;
+}
+
+nav > a:hover {
+  /* box-shadow: rgba(0, 0, 0, 0.6) 2px 8px 24px; */
+}
+
+mark {
+  color: rgba(255, 255, 255, 0.8);
+  background-color: transparent;
+}
+
+::selection {
+  background-color: red;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -1rem;
+  margin-left: -1rem;
+}
+
+ul > li {
+  box-sizing: border-box;
+  width: 50%;
+  margin-bottom: 0;
+  padding: 1rem;
+  transition: box-shadow 200ms;
+}
+
+ul > li:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+ul > li > h2 {
+  margin-top: 0;
+}
+
+section,
+footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+footer::before,
+section:not(:first-of-type)::before {
+  /* content: '';
+  width: 64px;
+  height: 32px;
+  border-bottom-left-radius: 64px;
+  border-bottom-right-radius: 64px;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #3360f4; */
+  /* transform: rotate(90deg);
+  transform-origin: 32px 0; */
+}
+
+section::after {
+  content: '';
+  width: 128px;
+  /* width: 40vw; */
+  height: 64px;
+  border-top-left-radius: 128px;
+  border-top-right-radius: 128px;
+  position: absolute;
+  bottom: -16px;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #34cbaf;
+  background-color: #a2ecdf;
+  /* transform: rotate(90deg);
+  transform-origin: 32px 32px; */
 }

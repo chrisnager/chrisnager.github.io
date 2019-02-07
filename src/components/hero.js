@@ -4,10 +4,14 @@ export default props => (
   <section
     style={{
       boxSizing: 'border-box',
-      // height: '100vh',
-      padding: '1rem',
+      // height: 'calc(100vh - 224px)',
+      // height: 'calc(100vh - 150px)',
+      padding: '60px 1rem 96px 1rem',
       // backgroundColor: '#eac600',
-      backgroundColor: 'hsla(344, 100%, 46%, 1)',
+      // backgroundColor: 'hsl(344, 100%, 46%)',
+      // backgroundColor: '#f83636',
+      backgroundColor: '#365ff8',
+      // backgroundImage: 'linear-gradient(transparent, #e7ff6e)',
     }}
   >
     <div
@@ -21,11 +25,12 @@ export default props => (
       <p
         {...props}
         style={{
-          marginBottom: '5rem',
+          // marginBottom: '54px', // '5rem',
           fontWeight: 600,
-          fontSize: '5.55vw',
+          fontSize: '5rem', // '5.55vw',
           lineHeight: '1.25em',
           letterSpacing: '-0.015em',
+          color: 'rgba(0, 0, 0, 0.8)',
         }}
       />
     </div>

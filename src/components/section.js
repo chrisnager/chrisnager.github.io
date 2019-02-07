@@ -6,7 +6,7 @@ export default ({ title, content, backgroundColor, home }) => (
     id={title.toLowerCase()}
     style={{
       boxSizing: 'border-box',
-      padding: '1rem',
+      padding: '3rem 1rem',
       // backgroundColor: '#eac600',
       // backgroundColor: 'hsla(344, 100%, 46%, 1)',
       backgroundColor,
