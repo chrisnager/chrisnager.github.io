@@ -8,7 +8,7 @@ const links = [
   { children: 'Projects', href: '/projects' },
   { children: 'Writing', href: '/writing' },
   { children: 'Speaking', href: '/speaking' },
-  { children: 'Experience', href: '#experience' },
+  { children: 'Experience', href: '/#experience' },
 ]
 
 const Header = ({ title }) => (
@@ -46,7 +46,7 @@ const Header = ({ title }) => (
           letterSpacing: '0.2em',
           textTransform: 'uppercase',
           color: '#fff',
-          textShadow: '2px 8px 24px rgba(0, 0, 0, .6)',
+          textShadow: '2px 8px 24px rgba(0, 0, 0, .6)', // on hover: #000 -1px 3px 0
         }}
       >
         <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>

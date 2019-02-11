@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "chrisnager.com",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Chris Nager's site",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Chris Nager <cnager@gmail.com>",
   "dependencies": {
     "@mdx-js/mdx": "latest",
     "@mdx-js/tag": "latest",
@@ -34,6 +34,7 @@
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "devDependencies": {
+    "gatsby-transformer-remark": "^2.2.4",
     "prettier": "^1.15.2"
   },
   "repository": {
