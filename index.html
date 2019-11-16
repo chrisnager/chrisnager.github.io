@@ -31,10 +31,6 @@
     <meta name="msapplication-TileColor" content="#00ccff" />
     <meta name="msapplication-TileImage" content="http://chrisnager.com/img/logo.png" />
 
-    <link rel="stylesheet" href="/css/normalize.css" />
-    <link rel="stylesheet" href="/css/syntax.css" />
-    <link rel="stylesheet" href="/css/chrisnager.css" />
-
     <link rel="index" title="Chris Nager" href="http://chrisnager.com/" />
     <link rel="next" title="Portfolio" href="http://chrisnager.com/portfolio/" />
 
@@ -46,9 +42,11 @@
     <style>
       body {
         --color: crimson;
+        --wght: 900;
 
         margin: 0;
         font: 1em/1.5 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', system-ui, sans-serif;
+        font: 1em/1.5 system-ui, sans-serif;
       }
 
       @media (prefers-color-scheme: dark) {
@@ -57,6 +55,12 @@
 
           background-color: #000;
           color: #f7f7f7;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        * {
+          animation: none !important;
         }
       }
 
@@ -127,12 +131,13 @@
       }
 
       .title {
-        margin-top: 0;
+        margin-top: 50px;
         margin-bottom: 0;
         font-size: 150px;
         line-height: 0.66667;
         font-weight: 700;
         letter-spacing: -0.015em;
+        font-variation-settings: 'wght' var(--wght);
       }
 
       .description {
@@ -252,9 +257,9 @@
 
       <p class="description">
         Things I use, in no particular order: a11y, i18n, usability, responsive future-friendly sites and apps, HTML5,
-        CSS3, JavaScript, React, React Native, Node.js, PostCSS, Pug, Haml, Sass, BEM, OOCSS, RWD, Markdown, PHP, Gulp,
-        npm, Yarn, Jekyll, Vim, Git, MDX, React Native Web, recompose, Redux, React Hooks, webpack, CSS Grid, CSS
-        Flexbox, Jest, CSS Animation, VS Code, React Hooks, styled-components, GraphQL, Gatsby
+        CSS3, JavaScript, React, React Native, TypeScript, Node.js, PostCSS, Pug, Haml, Sass, BEM, OOCSS, RWD, Markdown,
+        PHP, Gulp, npm, Yarn, Jekyll, Vim, Git, MDX, React Native Web, recompose, Redux, React Hooks, webpack, CSS Grid,
+        CSS Flexbox, Jest, CSS Animation, VS Code, React Hooks, styled-components, GraphQL, Gatsby
       </p>
     </main>
 
@@ -279,6 +284,26 @@
 
     <script>
       document.getElementsByClassName('current-year')[0].innerHTML = new Date().getFullYear();
+    </script>
+
+    <script>
+      document.body.style.setProperty('--wght', 100);
+    </script>
+
+    <script>
+      const title = document.getElementsByClassName('title')[0];
+      const letters = title.textContent.split('');
+
+      title.innerHTML = '';
+
+      letters.forEach((letter, index) => {
+        const span = document.createElement('span');
+
+        span.innerHTML = letter;
+        span.id = `title-${index}`;
+        span.style.cssText = `font-variation-settings: "wght" calc(var(--wght) * ${index / 1.5} + 50)`;
+        title.appendChild(span);
+      });
     </script>
 
     <script>
